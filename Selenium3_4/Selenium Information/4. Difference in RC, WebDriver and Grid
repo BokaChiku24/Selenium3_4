@@ -1,0 +1,54 @@
+Difference in RC, WebDriver and Grid
+
+1) RC - Remote Control 
+
+-> DefaultSelenium is the default class in RC. 
+-> start() method is used to start the browser
+-> open(String URL) URL pass through this method
+-> getTile() To get the title 
+-> type() to type in the textbox
+-> As such way they create bunch of methods and store them in the DefaultSelenium class
+
+-> How to call DefaultSeleneium 
+DefaultSelenium selenium = new DefaultSelenium();
+selenium.start(); 
+selenium.open("https://www.google.com");
+These line code initiate the browser. 
+
+-> Selenium RC (Remote COntrol) It injects JS (Javascript)
+
+-> IMP: Before starting Remote Control start Selenium RC Server - JS Engine
+-> How to start standalone server
+a) Open the terminal / command prompt
+b) type the command: java -jar selenium-server-standalone-2.53.1.jar
+
+-> Challenge with Remote Control: Its Architecture is the major challenges 
+-> it was injecting Javascript so while running in IE there was problem while running the code
+-> JS gets the sensitive information from the IE browser and JS only works when the security disable from the browser
+-> Because of removing security there is challenges to redirect the site as some site facing issue with SSL certificate or connection not secured
+-> Another big challenge is class DefaultSelenium and libraries - In that class there are multiple methods if the method is present then 
+   we can automate the functionality and method is not present then we can not automate the functionality. There is limitation on the automation. 
+   currently all methods deprecated from the DefaultSelenium class
+   
+-> Selenium v1.0 is not full success
+
+2) WebDriver
+-> No need to start the standalone selenium on the command prompt by using command: 
+   java -jar selenium-server-standalone-2.53.1.jar
+-> Totally removed Java Script dependency from the Remote Control. 
+-> For every browser different driver created in the selenium project
+-> Selenium WebDriver is introduced from v2.0 
+->  Last version of selenium WebDribder is 2.53.1
+
+3) GRID: It automate browser compatibility part
+
+-> It support on the multiple different browser or parallel execution 
+-> Grid is something like it is hub and it has multiple nodes. All nodes connected to the hub
+-> We can distribute test cases in GRID. i.e. in which node how many test cases it will run
+
+4) Architecture
+
+-> UI  - Middle Layer (Login API Layer - XML/JSON - REST) - DB Layer 
+-> Selenium is at UI Level
+-> It is sued to test Web Based Application
+-> It is used to test Mobile Application

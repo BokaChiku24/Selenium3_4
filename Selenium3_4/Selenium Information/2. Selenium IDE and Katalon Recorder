@@ -1,0 +1,34 @@
+Selenium IDE
+
+1) Selenium IDE is an Record and Play plugin for the browser e.g. Firefox, Chrome
+2) There are lot of drawback in Selenium IDE
+3) It not automate fully just like Selenium webDriver
+4) It is use to create simple scripts or assists in exploratory testing
+5) How to use Selenium IDE: 
+   a) Go to the browser
+   b) Open the plugin installer
+   c) Search for Selenium IDE and install it
+   d) Open the Selenium IDE
+   e) Hit on the 'Record a new test in a new project
+   f) Provide the project name
+   g) Provide the base URl
+   h) Hit on the start recording
+   i) Perform the test 
+   j) Go to the Selenium IDE and hit on the 'Stop the test'
+   k) Give the name to the test
+   l) Hit on the 'Run all test' to re-excute test again through Selenium IDE
+   
+Katalon Recorder
+
+1) It is an another extension to the chrome
+2) It is little better than Selenium IDE.
+3) How to use Katalon Recorder:
+   a) Go to the browser
+   b) Open the extension for Katalon
+   c) Install the extension
+   d) Open the Katalon Recorder
+   e) Create a new Project and Test
+   f) Start the test and perform actions
+   g) Stop the test
+   h) Hit on the 'Export' button 
+   i) Select the format Java (WebDriver + TestNG)

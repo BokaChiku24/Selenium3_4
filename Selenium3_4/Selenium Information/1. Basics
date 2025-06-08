@@ -1,0 +1,73 @@
+1) What is Selenium
+
+-> It is a framework / Set of Libraries / Project / API used to test web-based testing.
+-> It can be used with multiple languages. - Java - .jar, C# - .dll, PHP, Phyton
+-> Selenium won't support desktop based applications.
+-> Selenium is open source
+-> Selenium supports multiple browsers - Firefox, Chrome, Safari
+-> Selenium supports on multi platform support - Windows, Linux, MacOS
+-> Selenium components -> IDE, RC, Grid, WebDriver
+-> Selenium v1.0 -> IDE + RC + Grid 1
+-> Selenium v2.0 -> Grid 2 + WebDriver + RC (Last Version 2.35.1)
+-> Selenium v3.0 -> 3.141.59 (3 is the version and 141.59 is the build) - WebDriver + W3C Specification + Grid 3
+-> Selenium new website - https://www.selenium.dev
+-> Selenium v3.0 is a W3C recommendation. W3C is an inteernational community that works to develop Web Standards.
+
+2) Automation testing
+
+-> Web Based Testing -> Selenium / QTP / UFT
+-> Desktop based - > QTP
+-> Database App -> SQl, MySQL, Hadoop
+-> Mobile App -> Robotium (Android), Calabash (iOS), Appium (Both Android & iOS)
+-> Web Services REST / SOAP -> POSTMAN, SOAP UI
+
+
+3) Selenium is an API
+
+-> E.g. I am a Java Devloper. I deigned 'Calculator' class which support add, sub, mul, div etc.
+
+public Calculator {
+
+public static void main(String[] args)
+{
+  Calculator obj = new Calculator(); // What is an Object? (new Calculator()) and obj is reference variable holding value of Object
+  obj.add();
+  obj.div();
+  obj.sub();
+  obj.multi();
+}
+
+    add()
+    {
+
+    }
+
+    div()
+    {
+
+    }
+
+    sub()
+    {
+
+    }
+
+    multi()
+    {
+
+    }
+
+}
+
+4) Selenium contribution:
+
+-> Selenium WebDriver, GRID 25 %
+-> Most part is cover by Core java 45 %
+-> Maven / ANT / Gradle - Build Tools 10 %
+-> CI - Jenkins 10 %
+-> Junit / TestNG - Java Frameworks 10 %
+
+5) Check Java version
+
+-> Open the command prompt
+-> Type java - version

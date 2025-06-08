@@ -1,0 +1,33 @@
+Selenium 1, 2, 3, 4 Versions
+
+1) Selenium v 1.0 - IDE, RC, GRID1
+A) IDE - Record and Play 
+B) RC - Remote Control - JavaScript Injection (Drawback in IE and Limited Libraries) 
+C) GRID1 - Parallel execution on the multiple browser and OS.
+
+2) Selenium 2.0 till 2.53.1 - IDE, RC - 2.44 (Deprecated at version 2.44), WebDriver, GRID2
+A) Native support for the Firefox Browser
+B) Selenium Languages (e.g. Java, Pyby, Python) -> JSON Wire Protocol -> Browser Drivers -> HTTP over HTTP Server -> Real Browser
+   -> HTTP over HTTP Server -> Browser Driver -> JSON Wire Protocol -> Selenium Language
+   
+3) Selenium 3.0 till 3.141.59 - IDE, WebDriver, GRID3
+A) Direct communication with Firefox browser removed (Introduced gecko driver)
+
+4) Selenium 4.0 - 
+A) It is fully W3C Compliance
+B) It provide new RelativeLocator()
+C) User is able to take screenshot for webElement 
+D) W3C eliminates encoding and Decoding JSON Wire Protocol
+E) It comes with more stability e.g. code runs on mostly on all browser as browser vendor design their own browser directly.
+   Client send request -> Browser Driver Reads it -> Request Directly execute on real browser
+F) Selenium Languages (e.g. Java, Pyby, Python)  -> Browser Drivers -> Real Browser -> Browser Driver -> Selenium Language
+
+-> Selenium 4 Updates and new features 
+A) New WebSite - https://selenium.dev
+B) New Documentation Provided 
+C) It is fully W3C Compliance
+D) It provide new RelativeLocator()- above, below, left, right with tag attribute
+E) W3C eliminates encoding and Decoding JSON Wire Protocol
+F) User is able to take screenshot for webElement 
+G) It comes with more stability e.g. code runs on mostly on all browser as browser vendor design their own browser directly.
+   Client send request -> Browser Driver Reads it -> Request Directly execute on real browser
