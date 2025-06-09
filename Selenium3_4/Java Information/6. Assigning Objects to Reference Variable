@@ -1,0 +1,13 @@
+Assigning Objects to Reference Variable
+
+1) Before creating a reference variable we have to specify 'object of which class' it is going to refer. 
+2) In other word we need to specify the 'class type' of the reference variable. 
+
+public class Test
+{
+public static void main(String[] args)
+{
+Test t = new Test();
+//Here t is the reference variable which stores the address of the test object in the heap
+}
+}

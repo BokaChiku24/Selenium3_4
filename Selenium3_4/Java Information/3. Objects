@@ -1,0 +1,21 @@
+1) What are objects? 
+
+-> Objects are nothing but the instance of the class
+-> A single class can create any number of unique objects.
+
+2) Objects lives in java heap memory. 
+
+-> Java heap is nothing but the memory space taken by the JVM from operating system. 
+-> All objects are created in this heap(space). Whenever JVM encounters 'new' keyword, it creates an object in heap. 
+-> When there is no space in heap to create objects, then JVM throws 'Out of Memory' error.
+
+3) Creating First Object 
+
+-> public class Student
+  {
+  public static void main(String[] args)
+  {
+  Student obj = new Student();
+  }
+  }
+  

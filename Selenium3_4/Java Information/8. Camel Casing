@@ -1,0 +1,21 @@
+Camel Casing 
+
+-> Camel casing is programmer's way of combining more than two words into a single word. 
+-> E.g. batmanBegins - Variable
+        TheDarkKnight - Class
+        TheDarkKnightRises - Interface
+        
+ 1) Rules for classes: First character should be capital then camel casing. The name should represent a noun. 
+                       e.g. Dog, Account, Way2Automation etc
+                       
+ 2) Rules for interface: First character should be capital then camel casing. The name should represent "Adjectives" 
+                        e.g. Runnable, ActionListener, Serializable    
+                        
+ 3) Rules for methods: First character should be small, then camel casing and the name should represent verb-noun pair. 
+                       e.g. getResult, doCalculation
+                       
+ 4) Rules for variables: First character should be small then camel casing, and the name should be small meaning words. 
+                         e.g. buttonWidth, myList, accountBalance
+                         
+ 5) Rules for constants: All character should be in upper case and to connect them in connection character (_) should be used. 
+                         e.g. EXIT_ON_CLOSE, MIN_HEIGHT

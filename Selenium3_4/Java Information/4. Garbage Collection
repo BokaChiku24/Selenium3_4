@@ -1,0 +1,12 @@
+1) Garbage Collection is the mechanism provided by JVM, to clean out the Heap, so that new object can be created. 
+2) It destroys the objects which are 'not in use' or eligible for 'garbage collection'
+3) Any object is said to be eligible for garbage collection (GC) if there is no 'Reference variable' attached to it.
+4) Reference Variable: 
+
+   class Test
+   {
+   public static void main(String[] args)
+   {
+   Test t;
+   }
+   }

@@ -1,0 +1,11 @@
+Java String and String Concatenation
+
+1) In Java, 'String' is a class and not a data type and it can be instantiated like other classes. 
+-> String s = new String();
+
+2) String Concatenation is basically a way to combine two or more strings into a single string. This is done by '+' operator. 
+-> String str = "We" + "are" + "learning" + "Java" + "."
+
+3) String values can be concatenate with any other data type.
+-> boolean flag = true;
+String str = "This is: " + " " + flag

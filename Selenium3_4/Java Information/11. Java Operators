@@ -1,0 +1,37 @@
+Java Operators
+
+-> Unary Operator -- Accept Single Operands
+-> Binary Operator -- Accept Two Operands
+-> Ternary Operator -- Accept Three Operands
+-> 12 + 45 // Here 12 & 45 called as Operands
+
+1) Arithmetic Operators:
+-> '+' - Addition Operators & String Concatenator
+-> '-' - Subtraction Operator
+-> '*' - Multiplication Operator
+-> '/' - Division Operator
+-> '%' - Remainder Operator
+
+2) Unary Operators
+-> '++' - Increment Operator
+-> '--' - Decrement Operator
+-> '!'  - Logical Compliment Operator
+
+System.out.println(!false); // true
+System.out.println(!true); // false
+
+3) Equality and Relational Operators
+-> '==' - Equal To
+-> '!=' - Not Equal To
+-> '>'  - Greater Than
+-> '<'  - Less Than
+-> '>=' - Greater Than Or Equal To
+-> '<=' - Less Than Or Equal To
+
+4) Conditional Operators
+-> '&&' - Conditional And
+-> '||' - Conditional Or
+-> '?:' - Ternary Operator
+
+// System.out.println(34<=78); // true
+// System.out.println((123<=123) || (10==10)); // true

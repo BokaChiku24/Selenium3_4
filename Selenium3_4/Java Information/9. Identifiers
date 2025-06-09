@@ -1,0 +1,20 @@
+Identifiers
+
+1) Identifiers are nothing but the legal name of the java components. 
+
+2) The java component can be:
+
+-> Variables
+-> Classes
+-> Methods
+-> Interface
+-> Constant
+
+3) Java 'reserved' keyword cannot be used as an identifier. e.g. public, class, static, void etc..
+
+4) First character of an Identifier should be alphabetic character (a to z), dollar symbol ($), or connection character (_) 
+-> (Any number or special character is not permitted)
+
+5) After first character, other character can be combinations of $,_,(a to z),(0 to 9)
+
+6) Special character are not permitted at any case

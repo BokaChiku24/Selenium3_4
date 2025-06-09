@@ -1,0 +1,12 @@
+1) What is a class?
+-> A java class can be defined as a template or blueprint which describes state/behavior of it's object. 
+-> A class is used to create Object.  
+
+2) Creating a class
+-> A class is declared by using the keyword 'class'
+-> public class Tree{
+
+// This is our Tree class
+// All codes goes here 
+
+}

@@ -1,0 +1,39 @@
+Java Methods
+
+1) Methods are block of statements which are used to do specific task. 
+
+2) Methods are generally used to divide a large code into manageable chunks of codes. 
+
+e.g. int sum(int x, int y)
+     {
+      int z = x + y; 
+      return z;
+     }
+     // int - Return Type / sum - Method Name / int x, int y - Value passed to the method
+     
+3) Method Declaration:
+   
+   a) Access/NonAccess Modifier
+   b) returnType
+   c) MethodName(Parameter List)
+   d) {
+   e) // Method body or statement block
+   f) }
+   
+   public class Stocks
+   {
+   
+   public void go (int x)
+   {
+   System.out.println(x);
+   }
+   
+   }
+   
+4) Method Return Type
+-> It may be possible that a method returns a value or doesn't returns any value
+-> Return type of a method is nothing but the data type of the value returned by the method.
+-> Method return an integer value then return type will be 'int', for flat 'float', for character 'char', for boolean 'boolean'
+-> If a method doesn't returns any value then return value then it's return type is 'void'\
+-> If a method returns a value then the last statement should be a 'return statement'
+-> Any code after return statement is not reachable

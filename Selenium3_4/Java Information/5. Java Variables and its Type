@@ -1,0 +1,18 @@
+Java Variable and its Type
+
+1) Variable are named space of memory which stores the data. 
+
+2) There are two types of variables: 
+
+   A) Primitive Variables: Primitive data types are defined by the programming language. 
+                           a) Integer type
+                           b) Floating Type
+                           c) Character Type
+                           d) Boolean 
+                           
+                           -> Suffix 'l or L' must be used to indicate long otherwise compiler treat it as integer
+                           -> Suffix 'f or F' must be used to indicate float otherwise compiler treat is as double
+                           -> Suffix 'd or D' must be used to indicate double 
+                           
+   B) Reference variables//Non-primitive Variables: Reference variables are those variables which stores only address of an 'Object'. Reference variables//Non-primitive Variables defined by the programmer.
+                           

@@ -1,0 +1,11 @@
+Java Source File Declaration Rules:
+
+1) The first statement should be a "package" statement and there must be only one package statement.
+
+2) The second statement (if there is a package statement) should always be "import" statement and there can be any number of import statement per source file.
+
+3) There can be only one "public class" per source file and the name of the source file should be same as of "public class"
+
+4) There can be multiple non-public classes. 
+
+5) For the files with non-public class the name of source file can be anything.
