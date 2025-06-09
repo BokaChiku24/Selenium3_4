@@ -1,0 +1,27 @@
+1) Java is basically a HIGH LEVEL, platform independent, programming language, which works on principles of 
+   OBJECT ORIENTATION.
+   
+2) Java is platform independent. 
+
+-> Class file of java can run on any operating system (e.g. Windows, Linux, Mac etc)
+-> It works on 'Write once Run anywhere principle'
+
+3) How java Code Works?
+
+-> Java programming divides into three parts 
+   a) Java Compiler
+   b) Java Interpreter
+   c) JVM
+   
+-> If there is no syntax error in the code then compiler allows to pass the code and change it to the 'Byte Code' i.e. 
+   .class file. e.g. Hello.java -> Hello.class
+-> 'Byte Code' understand by machine only
+-> Java interpreter executes byte code line by line and gives instructions to the JVM. 
+-> JVM read the 'Byte Code' and pass instructions to our 'environment' in a language which is understandable by the 
+   environment. 
+-> Note: Java interpreter is a part of the JVM
+
+4) Java Configuration 
+
+-> JAVA_HOME - Use this to setup JDK environment in the machine (Variable Name) - (Variable Path)
+-> %JAVA_HOME%/bin - Use this in system path to recognize the Java (Variable Name) - (Variable Path)
