@@ -37,3 +37,14 @@ e.g. int sum(int x, int y)
 -> If a method doesn't returns any value then return value then it's return type is 'void'\
 -> If a method returns a value then the last statement should be a 'return statement'
 -> Any code after return statement is not reachable
+-> e.g. 
+
+   public class Stocks
+   {
+   
+   public int go (int x)
+   {
+   	return x;
+   }
+   
+   }

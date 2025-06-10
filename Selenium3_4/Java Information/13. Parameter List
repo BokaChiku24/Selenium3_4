@@ -1,0 +1,33 @@
+Parameter List
+
+1) Method Parameters are the variables declared in the declaration of method. 
+e.g.  
+
+   public class Stocks
+   {
+   
+   public int go (int x)
+   
+   {
+   
+   	return x;
+   	
+   }
+   
+   }
+
+2) The method parameter can be nothing, or one, or more than one. For multiple parameters separated by comma
+e.g. 
+
+	public class Stocks
+   {
+   
+   public void go (int x, float f, String s, char c)
+   
+   {
+   
+   	System.out.println("More than one parameter");
+   	
+   }
+   
+   }

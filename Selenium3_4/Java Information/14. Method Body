@@ -1,0 +1,11 @@
+Method Body
+
+1) Method body starts with opening curly braces '{' and closing curly braces '}'. 
+2) All statement of method goes within the pair of curly braces
+3) Execution of method stops on either 'return' statement or closing curly braces'}'
+4) e.g. 
+public int go(int x, int y)
+{
+ int sum = x + y;
+ return sum;
+}
