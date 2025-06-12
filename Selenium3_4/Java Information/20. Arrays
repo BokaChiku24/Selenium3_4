@@ -1,0 +1,29 @@
+Arrays
+
+-> Arrays are the collection of similar data types.
+-> Each variable in an array is known as array element
+-> Each variable of array is referenced by a particular integer number which is known as 'array index'
+-> The total number variables in array decide the length of the array. 
+-> Array index start from 0
+
+Declaration and Initialization of Array
+-> In Java array is an object, therefore it is declared and initialize like a object. 
+-> Declaration of array variable: int[] array;
+-> Constructing the array: 
+   new int[(length of the array)];
+-> Initialization of Array:
+   array[0] = 34;
+-> Declaration and initialization in single line: 
+   int[] array = { 34, 56, 7, 23, 34};
+   
+Initialization of array using loop:
+-> Arrays can be initialized by using loops
+-> int[] array = new int[34];
+-> for (int i = 0; i < array.length; i++)
+   {
+   array[i] = i;
+   System.out.println(array[i]);
+   }
+   
+Multi dimensional Arrays
+-> Multi-dimenstional arrays are nothing but the 'arrays of arrays' where each element represents a single dimensional array.

@@ -1,0 +1,23 @@
+A) Method Arguments and method Calling
+
+1) Arguments are the values which are passed during calling of a method. These arguments are stored in the parameters of the method. 
+2) Number of arguments must be equal to the number of parameters. 
+3) Calling a non argument method: 
+e.g. a.eat();
+4) Calling a single argument method:
+e.g. a.eat(45);
+5) Calling a multiple argument method:
+e.g. a.eat(343, 43, 'C', "Kunal");
+
+
+B) Predefined Methods: 
+
+1) Predefined methods are those methods which are already defined in java and ready to use. 
+2) We can call these methods and ca use in our code directly.
+3) e.g. 
+Math.random()
+-> Math.random() is a method defined in Math class which is used to generate a random number between 0.0 to .9 in double type. 
+-> Calling Math.random():
+  int x = (int) (Math.random() * 4);
+  
+  // It will generate the number from 0 to 3 

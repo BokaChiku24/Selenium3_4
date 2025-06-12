@@ -1,0 +1,36 @@
+If Statement: 
+-> This is a decision making statement, which will execute it's code if and only if the condition is true.
+-> e.g. if(condition)
+        {
+        Statements; // Codes
+        }
+        
+If-Else Statement: 
+-> In this the 'else' codes will execute if and only if the condition is false.
+-> e.g. if(condition)
+        {
+        Statement; // odes
+        }
+        else
+        {
+        Statement; // Codes
+        }
+
+If-Else-If:
+-> This is combination of if-else statement.
+-> e.g. if(condition)
+		{
+        Statements;
+        }
+        else if(Condition)
+        {
+        Statements
+        }
+        else if(Condition)
+        {
+        Statement;
+        }
+        else
+        {
+        Statement;
+        }

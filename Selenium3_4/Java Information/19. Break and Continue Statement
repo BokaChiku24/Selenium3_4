@@ -1,0 +1,14 @@
+ Break and Continue Statement
+ 
+ Break: 
+ -> Break and COntinue statement are used to change the normal flow of the compound statement.
+ -> The break statement immediately jumps to the end of the compound statement. 
+ -> The continue statement immediately jumps to the next iteration of the compound statement
+ -> for(int outer = 0; outer < 12; outer ++)
+    {
+     of(outer == 3);
+     continue; 
+     System.out.println(outer);
+     if(outer == 7)
+     break;
+    }

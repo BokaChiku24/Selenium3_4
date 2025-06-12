@@ -1,0 +1,56 @@
+Loops
+
+-> Loops are the way of representing lines of codes until loop condition id met.!!!
+
+-> Loop in Java:
+1. While Loop
+2. Do-While Loop
+3. For Loop
+4. Enhanced For Loop
+
+
+While Loop
+
+-> While loop repeats a block of code until the condition is true.
+-> while(condition)
+  {
+  // block of codes
+  }
+  // where condition is nothing but the boolean expression 
+  
+  
+Do-While Loop
+
+-> Do-While loop is similar to the 'While loop' bu the only difference is that, in this the loop block is guaranteed to run at least one time !!!
+-> do
+   {
+   // all code here
+   }
+   while(condition)
+   
+   // Since condition appears at the end, therefore the code block executes at least one
+   
+   
+For Loop
+
+-> In for loop the initialization, condition checking and updating of loop element is done in a single line. 
+-> for(initialization;condition;update)
+   {
+   // code
+   }
+-> The initialization step is executed first, and only once. this step allows you to declare and initialize any loop control variable. 
+-> Next, the boolean expression is evaluated. If it is true, the body of the loop is executed. If it is false, the body of  the loop does not execute. 
+-> After the body of the for loop executes, the flow of the control jumps back up to the update statement. This statement allows you to update any loop
+   control variables. 
+   
+
+Nesting of Loops
+-> The placing of one loop inside the body of another loop is known as Nesting of loops. 
+-> While working with nesting loops the outer loop will change only when inner loop is completely finished. 
+-> for(int outer = 0; outer < 5; outer++)
+   {
+   for(int inner = 0; inner < 3; inner++)
+   {
+   System.out.println("Outer is" + outer + "Inner is" + inner);
+   } // Inner loop ends
+   } // outer loop ends

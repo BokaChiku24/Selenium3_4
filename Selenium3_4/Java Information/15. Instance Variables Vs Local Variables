@@ -1,0 +1,46 @@
+Instance Variables Vs Local Variables
+
+1) Instance Variable: 
+-> Instance variable are those variables which are declared within a class. 
+-> These are known as 'instance variable' because each instance of the class (object) have it's own copy of instance variable.
+-> e.g. 
+public class Test
+{
+  
+  int i = 10; // instance variable -- Global Variable
+
+}
+
+2) Local Variable:
+-> Local variable are those variables which are declared within method.
+-> These are know as 'Local Variable' because they formed within method and dies at the end of the method.
+-> e.g. 
+public class Test
+{
+  
+  public void go()
+	{
+
+     int j = 123; // Local variable -- declared inside method body
+     
+	}
+
+}
+
+3) Class Variables / Static Variables: 
+-> To create an class variable we need to use the static keyword. 
+-> e.g. 
+public class Test
+{
+  
+  static int i = 10; // Class Variable or Static Variable
+
+}
+
+4) Accessing Object's methods and instance variables
+-> The methods and instance variables of any object can be accessed by the help of dot operator (.) on reference variable. 
+-> referenceVariable.instancevariable/method
+-> e.g. 
+   For class Animal having eat() method:
+   Animal a  = new Animal();
+   a.eat();
