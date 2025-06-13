@@ -1,0 +1,49 @@
+Exception Handling
+
+A) Checked Exceptions: A checked exception that is typically a user error or a problem that cannot be foreseen by the programmer. For example, if a file is to be
+                       opened, but the file cannot be found, an exception occurs. These exceptions cannot simply be ignored at the time of compilation. 
+
+-> ClassNotFoundException: Class not found
+-> CloneNotSupportedException: Attempt to clone an object that does not implement the Clone able interface
+-> IllegalAccessException: Access to a class is denied
+-> InterruptException: One thread has been interrupted by another thread
+-> InstantiationException: Attempt to create an object of an abstract class or interface
+-> NoSuchFieldException: A requested field does not exist
+-> NoSuchMethodException: A requested method does not exist
+
+B) Runtime Exceptions: A runtime exception is an exception that occurs that probably could have been avoided by the programmer. As opposed to checked exceptions, 
+                       runtime exception are ignored at the time of compilation.
+                       
+-> ArithmeticException: Arithmetic error, such as divide by zero 
+-> ArrayIndexOutOfboundsException: Array index is out-of-bounds
+-> ArrayStoreException: Assignment to an array element of an incompatible type 
+-> ClassCastException: Invalid Cast
+-> IllegalArgumentException: Illegal argument used to invoke a method
+-> IllegalMonitorStateException: Illegal monitor operation, such as waiting on an unlocked thread 
+-> IllegalStateException: Environment or application is in incorrect state
+-> IllegalThreadStateException: Requested operation not compatible with current thread state
+-> IndexOutOfBoundsException: Some types of index is out-of-bounds 
+-> NegativeArraySizeException: Array created with negative size
+-> NullPointerException: Invalid use of null reference
+-> NumberFormatException: Invalid conversion of a String to a numeric format
+-> SecurityException: Attempt to violate security
+-> StringIndexOutOfBounds: Attempt to index outside of the bounds of a string
+-> UnsupportedOperationException: An unsupported operation was encountered
+                        
+
+
+
+C) Errors: These are not exceptions at all, but problems that arise beyond the control of the user or the programmer. Errors are typically in your code
+           because you can rarely do anything about an error. For example, if stack overflow occurs, an error will arise. They also ignored at the time
+           of compilations
+                                           
+                      
+D) Exception: The exception class has two main sub-classes. IOException and RuntimeException class
+
+              Throwable (class)
+              
+   
+   Error (class)               Exception (class)
+   
+   
+                IOException (class)        RuntimeException (class) 

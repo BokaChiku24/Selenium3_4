@@ -1,0 +1,33 @@
+Access Modifiers
+
+-> It specifies access level of java component
+-> Access Modifiers can be divide into two parts
+   a) Class Level
+   b) Member Level
+   
+A) Class Level: 
+   
+   1) public: If a class is marked as public access modifiers then it can be access anywhere in the java.
+              e.g. public class Demo()
+                   {
+                   
+                   
+                   }
+   
+   2) default: If a class have no modifiers, then it will be marked as 'default' implicitly, then it is accessible in its package. 
+               e.g. class Demo()  
+                   {
+                   
+                   
+                   }
+                   
+B) Member Level:
+ 
+   1) public: If a member is marked as public then it is accessible in whole java world.
+   
+   2) default: If a member have no modifier, then it will be marked as 'default' implicitly and accessible only within its package.
+   
+   3) protected: If a member is marked as protected then it is accessible in it's package. It is also accessible outside the package but only 
+                 concept of 'Inheritance' only.
+   
+   4) private: If a member is marked as private then it is accessible in it's class only 
