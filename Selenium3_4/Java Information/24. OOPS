@@ -1,7 +1,146 @@
 OOPS Concepts:
 
-1) Encapsulation: It is the design pattern
+1) Encapsulation: It is the design pattern, data hiding, Getter and Setter
 2) Inheritance
 3) Polymorphism: Overloading, Overriding
-4) Abstraction: Abstract Class, Interfaces, data hiding
-6) Getter and Setter
+4) Abstraction: Abstract Class, Interfaces, 
+***********************************************
+1) Encapsulation: It is an mechanism in which we 'Encapsulate' our code in such a way that it can not be randomly accessed by the other code or outside the class.
+                  
+                  To achieve encapsulation use below sections:
+                  
+                  a) Always make instance variable private. 
+                  b) Always make public accessor methods and force calling code to use these methods instead of calling instance variable directly.
+                  c) Use the naming convention set() and get() for these methods. 
+                  
+                  Benefits of Encapsulation:
+                  
+                  a) Code become more maintainable and flexible.
+                  b) In future we can our code without breaking other code which depend on our code.
+                  c) The class have total control what will be stored in the fields.
+                  d) The user of client class don't know how the data stores inside the class.
+                  
+2) Inheritance:   A) Inheritance can be defined as the process in which one object acquires the properties of others. 
+                  B) By using inheritance the information becomes more manageable and in a hierarchical order. 
+                  C) In other word we can say the Inheritance is the relationship between super class (super class is nothing but parent class and sub class (sub class is 
+                     nothing but child class)
+                  
+                  Vehicle
+                     |
+                     |
+                    Car
+                     |
+                     |
+                 Racing Car
+                 
+                 D) Sub class actually inheritance the property of super class. 
+                 E) Super Class Vs Sub Class
+                    i) Super Class: It is the class which contains common features of all subclasses. 
+                    ii) Sub Class:  It is the class which inherits property of all super class. 
+                    
+                                            Animal 
+                                            
+                                                                Is A
+                                            
+                                    Cat       Dog      Elephant
+        
+        		F) Inheritance relationship is created by using the keywords 'extends'
+        		   e.g. public class Animal() // Super Class
+        		   
+        		        public class Dog() extends Animal
+        		         {
+        		          // Dog class is the sub-class of the Animal
+        		         }
+        		         
+        	           public class Cat extends Dog
+        	             {
+        	             // Cat is the sub-class of the Animal
+        	             }
+        	             
+        	    H) In Java Child can be depend on the parent but parent can not be depend on the child
+        	    
+        	    I) Types of Inheritance: Single, MultiLevel, Hybrid, Hierarchical, and Multiple (Achieved By Interface) 
+        	    
+        	    J) Class can inherit the class by using extends keyword
+        	       Class can inherits the interface by using implements keyword
+        	       Inheritance Types achieved at class level:
+        	       Single
+        	       MultiLevel
+        	       Hierarchical
+        	    
+        	    K) Interface can inherit the interface by using extends keyword
+        	       Inheritance Types achieved at interface level:
+        	       Single
+        	       MultiLevel
+        	       Hierarchical
+        	       Multiple
+        	       
+3) Polymorphism: Same name + Multiple forms (action/behavior)
+                 Types of Polymorphism: 
+                 1. CompileTime / Early Binding / Static Binding / Overloading
+                 2. RunTime / Late Binding / Dynamic binding / Overriding 
+                 
+                 A) Overloading: Same method name and different signature. In the same class we have multiple methods with same name but different method signature.
+                 
+                 Q1: Can we achieve overloading by keeping the method signature same and changing the return type
+                 Ans: NO
+                 
+                 B) Overriding: Method Overriding is basically a ability to define a behavior which is specific to the sub-class.
+                                It is also called as RunTime / Late Binding / Dynamic binding / Overriding
+                                
+                 Method Overriding Rules: 
+                 1. The argument and return type must be same as of super class method.
+                 2. The access level can't be decreased.
+                 
+                 Method Overriding is achieved in Inheritance only.
+                 
+                 Q1: Can we change the return type of the overriding method? 
+                 Ans: No - return type is primitive data type in java 
+                      Yes - In case return type is class name / covariant
+                      
+                      Covariant: The return types are the class name and there is parent - child relationship between those classes.
+                      
+                 Q2: Can we change the access modifiers when overriding? 
+                 Ans: Yes we can change it but we can not reduce the visibility 
+                 
+                 Q3: Can we override the static method? 
+                 Ans: No - Method Hiding
+                 
+4) Abstraction: A) Abstraction is a design concept on which we only declare functionality but doesn't define it because we don't know about them at design point.
+				
+				B) abstract keyword: This is a special keyword which is used as a non-access modifiers with classes and methods.
+				
+				C) abstract keyword with class: If 'abstract' keyword is used with a class, then no one can instantiate that class and these classes are known as 'abstract classes'
+				
+				D) abstract keyword with method: If 'abstract' keyword is used with method, then it must be overridden in first concrete class
+				
+				E) Abstract Class Vs Concrete Class
+				   
+				   1. The classes which cannot be instantiated are known as Abstract class. 
+				   2. Concrete class are those classes which can be instantiated.
+				   
+			    F) Abstract Methods and it's properties: 
+			       
+			       1. The abstract method is that method which doesn't contains any body and must be overridden in first concrete class.
+			       2. Properties: 
+			          a) Abstract class should always use the keyword 'abstract' and in declaration it must be without body.
+			          b) The class of abstract method must be an abstract class. Abstract method cannot be declare in a concrete class.
+			          c) The abstract method must be overridden by first concrete class which extends the abstract class.
+			   
+			   Q1: How to call method in abstract class? 
+			   Ans: By inherit that class and creating object of the child class or by creating parent polymorphic reference  
+			   
+			   Q2: Can abstract class declared as final?
+			   Ans: No. If we declare it final then how to define method body 
+			  
+5) Interfaces: Interface and it's declaration
+
+               1. Interface is nothing but the pure abstract class which contains only abstract method.
+               2. Interface are always abstract whether we mentioned it or not
+               3. Declaration:
+                  In order to declare an interface the keyword "interface" is used. e.g. 
+                  public interface MyInterface
+                  {
+                  
+                  }
+               4. final keyword can not be used while declaration of interface
