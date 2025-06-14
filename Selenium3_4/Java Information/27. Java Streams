@@ -1,0 +1,39 @@
+Java Streams
+
+1. Stream is basically a 'process sequence' through which a data can either be written in a file or can be read from a file
+2. Stream can be imagined as a 'Channel' through which data bytes are either flows from program to a destination file or from a destination file to a program
+3. In order to write 'characters' to a file we need an 'OutputStream'
+4. In order to read 'characters' from a file we need as 'InputStream'
+
+Writing a text file using java
+
+1. The steps to write a simple text file are: 
+-> Use a output stream which will selects the directory in which our text file will be save
+-> Use a output stream to create a file and chain it to previous step
+-> Use 'BufferedWriter' to write 'characters' in the file and chain it to the previous step
+-> Close the last stream
+
+public class Test
+{
+public static void main(String[] args) throws IOException
+{
+// Output stream to select directory
+File f = new File(System.getProperty("user.dir")+"/New.txt");
+// Output stream to write files, and chaining to previous step
+FileWriter fw = new FileWriter(f);
+// BufferedWriter writer = new BufferedWriter(fw);
+// Writing in the text file
+String name = "Kunal";
+String surname = "Chavan";
+String para = "Once upon a time there was a king, simba, who is " + "taken care by 'Timon' and 'Pumba'";
+writer.write(name);
+// Creating a new line using method of BufferedWriter
+writer.newLine();
+writer.write(surname);
+writer.newline();
+writer.write(para);
+// Closing the last stream
+write.close();
+// End of the process for our acknowledge
+}
+}

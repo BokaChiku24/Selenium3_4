@@ -3,6 +3,7 @@ package org.java.superKeyword;
 public class BullDog extends Dog {
 	
 	public BullDog() {
+		super("Bob");
 		System.out.println("Bull Dog...");
 	}
 	

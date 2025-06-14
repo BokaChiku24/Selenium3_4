@@ -30,7 +30,23 @@ Constructors and this Keywords
      System.out.println("I am parameterized constructor");
     }    
 
+Constructor Chaining:
 
+1. Constructor chaining is basically a process in which whenever constructor of sub-class is called, it will call the constructor of all super classes until constructor of 
+   class Object is called. 
+2. First we call the constructor of Hippo class. 
+   The subclass will call the constructor of Animal class
+   Finally the animal constructor calls the object constructor. 
+   
+   Object()
+   |
+   |
+   Animal()
+   |
+   |
+   Hippo()
+   
 Super keyword:
 
-1. 
+1. If we don't call the constructor of superclass the compiler implicitly calls the 'default' constructor of super class
+2. But if the constructor of super class is overloaded, it is possible to call it from child class by using the keyword 'super(argument list)'

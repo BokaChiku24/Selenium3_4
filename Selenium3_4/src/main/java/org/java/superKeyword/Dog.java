@@ -3,7 +3,11 @@ package org.java.superKeyword;
 public class Dog extends Animal {
 
 	public Dog() {
-		System.out.println("Dog Constructor !!");
+		
+	}
+	
+	public Dog(String name) {
+		System.out.println("Dog Constructor !!" + name);
 	}
 	
 	public void sound() {
