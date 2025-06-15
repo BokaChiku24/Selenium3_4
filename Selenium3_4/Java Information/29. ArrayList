@@ -1,0 +1,9 @@
+ArrayList
+
+1. ArrayList is nothing but the class which is used to store the object dynamically.
+2. In this we don't need to mention the length of the ArrayList, instead of this, it's length increase as new objects are added and shrinks when objects are removed from it.
+3. ArrayList never stores the 'Primitive Values'.
+4. All values stored in the ArrayList are objects, if we try to add primitive value, it will be implicitly changes to the objects by 'Autoboxing'.
+5. It maintains the order of insertion of value
+6. It allows duplicate values
+7. 

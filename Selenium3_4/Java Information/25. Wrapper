@@ -1,11 +1,30 @@
 Wrapper Classes in Java
 
-1. byte - Byte
-2. double - Double
-3. float - Float
-4. int - Integer
-5. long - Long
-6. short - Short
-7. char - Character
+Wrapper classes are those classes, which are used to 'wrap' primitive variables in such a way, that they behave like an object. 
+
+1. byte - Byte (for wrapping byte value)
+2. double - Double (for wrapping double value)
+3. float - Float (for wrapping float value)
+4. int - Integer (for wrapping int value)
+5. long - Long (for wrapping long value)
+6. short - Short (for wrapping short value)
+7. char - Character (for wrapping char value)
+8. boolean - Boolean (for wrapping boolean value)
 
 All these wrapper class have parent class i.e. Number class
+
+A) Autoboxing: 
+1. Autoboxing is basically a technique in which compiler automatically wrap and unwrap the primitives in order to store them in 'ARRAYLIST'
+
+B) Wrapping and un-wrapping a integer variable:
+e.g. public class Test
+     {
+     public static void main(String[] args)
+     {
+     int i = 45;
+     Integer wrapper = new Integer(i);
+     System.out.println(wrapper);
+     int unwrapped = wrapper.intValue();
+     System.out.println(unwrapped);
+     }
+     } 

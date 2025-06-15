@@ -1,0 +1,37 @@
+Java Collection  (Collections - Framework/API in the form of interfaces and classes)
+
+1. The collection framework is nothing but the API which contains a number of interfaces and classes. The important interfaces in this API are:
+
+A) Collection
+B) List
+C) Queue
+D) Set
+
+2. Why collection introduced? 
+Ans: Arrays store multiple values but the size is fixed and it contains only one type of data ie.e. int. Arrays are not dynamically
+
+3. Collections: 
+
+A) Size is infinite
+B) It can contain multiple type of data
+
+4. Collection is an interface
+The important classes of collection API are:
+A) Maps - interface 
+   a) HashMap - class
+   b) HashTable - class
+   c) TreeMap - class
+   d) LinkedHashMap
+B) Sets - interface 
+   a) HashSet - class
+   b) LinkedHashSet - class
+   c) TreeSet - class
+C) Lists - interface 
+   a) ArrayList - class
+   b) Vector - class
+   c) LinkedList - class
+D) Queue - interface 
+   a) PriorityQueue - class
+E) Utilities
+   a) Collections - class
+   b) Arrays - class
