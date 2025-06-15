@@ -1,0 +1,113 @@
+Apache POI
+
+1. Apache POI is basically a JAVA API which is used to handle Microsoft .xls and .xlsx files effectively using java codes. 
+2. For dealing with excel (97-2003) file format, HSSF API is used. i.e for .xls files.
+3. For dealing with .xlsx file format, XSSF API is used. i.e. .xlsx files
+4. How to use Apache POI:
+   -> Download Apache POI API by Apache web site
+   -> Configure build path and add external jars to the projects build path or add Apache POI maven repository
+   
+A) Writing .xls file using POI
+
+1. Create excel workbook using POI
+2. Create sheet (or sheets) in above workbook
+3. Create Row (or rows) in above sheet
+4. Create Cell (or cell) in above Row
+5. Use a output stream which will selects the directory in which our .xls file will be save
+6. Use a output stream to create a file and chain it to previous step
+7. Use 'WorkBook.writer' to write 'characters' in the file and chain it to previous step
+8. Close the output stream
+
+public class WirtingExcel
+{
+public static void main(String[] args) throws IOException
+{
+// Creating Work Book
+XSSFWorkbook workbook = new XSSFWorkbook();
+
+// Create sheet on the workbook, the XSSFSheet have private constructor
+XSSFSheet sheet1 = workbook.createSheet("First Sheet");
+XSSFSheet sheet2 = workbook.createSheet("Second Sheet");
+
+// Create row in sheet1
+Row row0 = sheet1.createRow(0);
+Row row1 = sheet1.createRow(1);
+Row row2 = sheet1.createRow(2);
+
+// Create cell in row0
+Cell cellA = row0.createCell(0);
+
+//Setting cell value
+cellA.setCellValue("value");
+
+// Repeating above steps for other cells
+Cell cellB = row0.createCell(1);
+cellB.setCellvalue("Email");
+Cell cellC = row0.createCell(2);
+cellC.setCellvalue("Mobile Number");
+
+// Creating File Stream
+File f = new File("Path");
+// Chaining output stream to path
+FileOutputStream fo = new FileOutputStream(f);
+// Writing workbook to output stream
+workbook.write(fo);
+//close stream
+fo.close();
+System.out.println("Excel file is written");
+}
+}
+
+B) Reading Excel file using POI
+
+1. Use a input which will selects the directory in which our excel file is already saved
+2. use a input stream to use that file and chain it to previous step
+3. use 'WorkbookFacctory' to read characters or lines from the file and chain it to the previous step
+4. Read the excel file with appropriate logic
+
+public class ReadExcel
+{
+public static void main(String[] args) throws invalidformatException, IOEexception
+{
+// Input file stream
+File f = new File("C://new.xls");
+// Connecting to input stream
+FileInputStream fi = new FileInputStream(f);
+// Connecting workbook to input stream
+Workbook workBook = WorkbookFactory.create(fi);
+
+// Get the first sheet
+Sheet sheet0 = workBook.getSheetAt(0);
+// Get the first row
+Row row0 = sheet0.getRow(0);
+// Get the first cell
+Cell cell0 = row0.getCell(0);
+Cell cell1 = row0.getCell(1);
+Cell cell2 = row0.getCell(2);
+
+System.out.println("Cell 0 is ->> " + cell0 + " Cell 1 is --> " + cell1 + " Cell 2 is --> " + cell2);
+
+}
+}
+
+
+Enhanced For Loop
+
+for(Row row : sheet0)
+{
+for(Cell cell : row)
+{
+switch(cell.getCellType())
+{
+case Cell.CELL_TYPE_STRING: 
+System.out.print(cell.getStringCellValue() + "\t");
+break;
+case Cell.CELL_TYPE_BLANK:
+System.out.print("It's a blank value");
+break;
+case Cell.CELL_TYPE_NUMERIC: 
+System.out.print(cell.getNumericCellValue() + "\t");
+break;
+} // end switch
+} // end inner for
+} // end outer for

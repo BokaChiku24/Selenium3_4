@@ -37,3 +37,31 @@ write.close();
 // End of the process for our acknowledge
 }
 }
+
+Reading a text file using java 
+
+1. Use a input which will selects the directory in which our text file is already saved. 
+2. Use a input stream to use that file and chain it to the previous step. 
+3. Use BufferedReader to read characters or lines from the file and chain it to the previous step.
+4. Close the stream
+
+public class FileReading
+{
+public static void main(String[] args) throes IOException
+{
+// Input stream for selecting files from a directory
+File f = new File(System.getProperty("user.dir")+"/src/main/java/Nexw.txt");
+// Input stream to read the file and chaining it to previous step
+FileReader fr = new FileReader(f);
+// BufferedReader to read character and chaining it to previous step
+BufferedReader reader = new BufferedReader(fr);
+
+String line = null;
+while((line=reader.readLine())!=null)
+{
+System.out.println(line);
+}
+// Close the last Stream
+reader.close();
+}
+}
