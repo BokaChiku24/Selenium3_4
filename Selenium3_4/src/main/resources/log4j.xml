@@ -24,10 +24,10 @@
 </appender>
 <!--  Email Appender  -->
 <appender name="ERROR_MAIL" class="SecureSMTPAppender">
-<param name="SMTPUsername" value="java@way2automation.com"/>
+<param name="SMTPUsername" value="kunal24chavan@gmail.com"/>
 <param name="SMTPPassword" value="8923567928475"/>
-<param name="To" value="trainer@way2automation.com,seleniumcoaching@gmail.com"/>
-<param name="From" value="java@way2automation.com"/>
+<param name="To" value="kunal24chavan@gmail.com"/>
+<param name="From" value="kunal24chavan@gmail.com"/>
 <param name="Subject" value="Log4j Error in Project"/>
 <param name="SMTPHost" value="smtp.gmail.com"/>
 <param name="BufferSize" value="10"/>
