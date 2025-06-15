@@ -1,6 +1,7 @@
 package org.collections;
 
 import java.util.HashSet;
+import java.util.Iterator;
 
 public class HashSetExample {
 
@@ -12,6 +13,18 @@ public class HashSetExample {
 		set.add("Selenium");
 		System.out.println(set.size());
 		System.out.println(set);
+
+		// Fetch values
+
+		for (String var : set) {
+			System.out.println(var);
+		}
+		
+		Iterator<String> itr = set.iterator();
+		while(itr.hasNext()) {
+			if(itr.next().equals("Chavan"))
+			System.out.println(itr.next());
+		}
 	}
 
 }
