@@ -1,0 +1,2 @@
+1) Eclipse: Windows CTRL + SHIF + O (To add not imported packages in the code)
+2) Eclipse: MAC CONTROL + COMMAND + O (To add not imported packages in the code)
