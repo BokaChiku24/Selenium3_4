@@ -1,7 +1,7 @@
 package selenium.ie;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 
 public class InternetExplorerConfigurartion {
 
@@ -10,7 +10,7 @@ public class InternetExplorerConfigurartion {
 		System.setProperty("webdriver.ie.driver", "/Users/kunalchavan/git/Selenium3_4/SeleniumDrivers/IEDriverServer.exe");
 		
 		//Selenium 4.x
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new InternetExplorerDriver();
 		driver.get("https://www.google.com");
 		driver.quit();
 
