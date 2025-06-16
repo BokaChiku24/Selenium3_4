@@ -1,2 +1,6 @@
 1) Eclipse: Windows CTRL + SHIF + O (To add not imported packages in the code)
 2) Eclipse: MAC CONTROL + COMMAND + O (To add not imported packages in the code)
+3) Three things needs to consider while using Selenium:
+   A) Latest Selenium jar file
+   B) Latest Browser Version - Firefox, Chrome, Edge, Safari
+   C) Latest executable driver file
