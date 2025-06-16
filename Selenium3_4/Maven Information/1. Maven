@@ -1,3 +1,29 @@
 Maven 
 
 1) It is dependencies tool or build tool which manager project jar files.
+2) Go to the Eclipse -> Create a Maven project
+3) Create simple Maven project. 
+4) It will ask for group_Id: This is domain name
+5) Then it will ask for artifact_id: This is your project name
+6) For Maven project eclipse will show small 'M' and 'J'
+7) Once Maven project create it will show architecture of the maven. 
+8) There is only one src package in maven 
+9) Under the src there are two sub packages one is 'java' and one is 'test'
+10) resources saves xml, excel, txt files etcs
+11) pom.xml is the heart of the maven project. 
+12) jar dependencies maintain by the pom.xml file
+13) Open the pom.xml there is information of your project. 
+14) We can change the version of our project
+15) Add <dependencies>   
+		dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.33.0</version>
+        </dependency>
+        </dependencies> in the pom.xml
+16) In sometime or seconds it will download jars from maven repository and add them into your project
+17) Maven creates a local repository in our machine and save all the downloaded jar files which helps for the our project
+18) At the end of the day we only check in the code to the repository we don't check in all jar files. Code is in KB and jars are in MB
+19) Now suppose there are 10 automation testers and 1 tester changes version and check in pom.xml file to the repository. 
+    The other day other tester take the updated code so they don't need to go and manaually update the jars. 
+    Maven automatically handle this job for you.

@@ -7,7 +7,12 @@ public class ChromeConfiguration {
 
 	public static void main(String[] args) {
 		// Selenium 3.x
-		System.setProperty("webdriver.chrome.driver", "/Users/kunalchavan/git/Selenium3_4/SeleniumDrivers/chromedriver");
+		// System.setProperty("webdriver.chrome.driver", "/Users/kunalchavan/git/Selenium3_4/SeleniumDrivers/chromedriver");
+		
+		/*
+		 * Above will work only whens the driver executable file is project root folder. 
+		 * Otherwise system will throw IllegalStateException
+		 */
 		
 		//Selenium 4.x
 		WebDriver driver = new ChromeDriver();
