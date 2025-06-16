@@ -27,7 +27,12 @@
   <artifactId>poi</artifactId>
   <version>3.12</version>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+<dependency>
+    <groupId>io.github.bonigarcia</groupId>
+    <artifactId>webdrivermanager</artifactId>
+    <version>6.1.0</version>
+</dependency>
 <dependency>
   <groupId>org.apache.poi</groupId>
   <artifactId>poi-ooxml</artifactId>
