@@ -10,4 +10,5 @@ MAC Settings:
 8) It will redirect to the terminal
 9) To save changes successfully type the command: source ~/.zshrc
 10) Verify the environment variable: java --version
-
+11) To get the path of the variable type this command: echo $PATH 
+    e.g. echo $JAVA_HOME: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
