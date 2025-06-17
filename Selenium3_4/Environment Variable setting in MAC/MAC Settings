@@ -1,0 +1,13 @@
+MAC Settings:
+
+1) Open the terminal
+2) Type the command: nano ~/.zshrc or vim ~/.zshrc
+3) For Vim ~/.zshrchit on the 'i' button
+4) Then start typing the PAth. e.g. export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home
+5) and set the end point e.g.       export PATH=$JAVA_HOME/bin:$PATH
+6) Hit on the 'esc' button
+7) Type :wq
+8) It will redirect to the terminal
+9) To save changes successfully type the command: source ~/.zshrc
+10) Verify the environment variable: java --version
+
