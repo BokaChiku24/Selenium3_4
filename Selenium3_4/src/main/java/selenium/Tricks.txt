@@ -4,3 +4,8 @@
    A) Latest Selenium jar file
    B) Latest Browser Version - Firefox, Chrome, Edge, Safari
    C) Latest executable driver file
+4) Selenium Grid: Download the selenium grid 
+   Open the command prompt and run this command: java - jar selenium-server-4.6.0.jar standalone
+   Open the browser and hit on the URL: http://192.168.0.108:4444
+   
+   Note: Above command automatically download driver from Chrome, Firefox, Edge, Safari
