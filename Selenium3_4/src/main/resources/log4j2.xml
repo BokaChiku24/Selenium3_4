@@ -4,7 +4,7 @@
     <!-- Logging Properties -->
     <Properties>
         <Property name="LOG_PATTERN">%d{yyyy-MM-dd'T'HH:mm:ss.SSSZ} %p %m%n</Property>
-        <Property name="APP_LOG_ROOT">/Users/kunalchavan/git/Selenium3_4/Selenium3_4/src/main/resources</Property>
+        <Property name="APP_LOG_ROOT">/Users/kunalchavan/git/Selenium3_4/Selenium3_4/src/main/resources/log4j2_Logs_XML</Property>
     </Properties>
      
     <Appenders>
