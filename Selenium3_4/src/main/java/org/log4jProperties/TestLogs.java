@@ -16,7 +16,7 @@ public class TestLogs {
 		
 		System.out.println(d.toString().replace(":", "_").replace(" ", "_"));
 		System.setProperty("current.date", d.toString().replace(":", "_").replace(" ", "_"));
-		PropertyConfigurator.configure("./src/main/resources/properties/log4j.properties");
+		PropertyConfigurator.configure("./src/main/resources/log4j_properties/log4j.properties");
 		
 		log.info("This is the information log");
 		
