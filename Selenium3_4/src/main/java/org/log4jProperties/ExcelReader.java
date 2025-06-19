@@ -5,11 +5,11 @@ import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.util.Calendar;
 
-import org.apache.poi.common.usermodel.HyperlinkType;
+//import org.apache.poi.common.usermodel.HyperlinkType;
 import org.apache.poi.hssf.usermodel.HSSFDateUtil;
-import org.apache.poi.hssf.util.HSSFColor;
+//import org.apache.poi.hssf.util.HSSFColor;
 import org.apache.poi.ss.usermodel.CellStyle;
-import org.apache.poi.ss.usermodel.CellType;
+//import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.FillPatternType;
 import org.apache.poi.ss.usermodel.IndexedColors;
 import org.apache.poi.xssf.usermodel.XSSFCell;
@@ -93,9 +93,9 @@ public class ExcelReader {
 		if(cell==null)
 			return "";
 		
-		if(cell.getCellType()==CellType.STRING)
+		if(cell.getCellType()==XSSFCell.CELL_TYPE_STRING )
 			  return cell.getStringCellValue();
-		else if(cell.getCellType()==CellType.NUMERIC || cell.getCellType()==CellType.FORMULA ){
+		else if(cell.getCellType()==XSSFCell.CELL_TYPE_NUMERIC || cell.getCellType()==XSSFCell.CELL_TYPE_FORMULA ){
 			  
 			  String cellText  = String.valueOf(cell.getNumericCellValue());
 			  if (HSSFDateUtil.isCellDateFormatted(cell)) {
@@ -117,7 +117,7 @@ public class ExcelReader {
 			  
 			  
 			  return cellText;
-		  }else if(cell.getCellType()==CellType.BLANK)
+		  }else if(cell.getCellType()==XSSFCell.CELL_TYPE_BLANK)
 		      return ""; 
 		  else 
 			  return String.valueOf(cell.getBooleanCellValue());
@@ -152,9 +152,9 @@ public class ExcelReader {
 		if(cell==null)
 			return "";
 		
-	  if(cell.getCellType()==CellType.STRING)
+	  if(cell.getCellType()==XSSFCell.CELL_TYPE_STRING)
 		  return cell.getStringCellValue();
-	  else if(cell.getCellType()==CellType.NUMERIC || cell.getCellType()==CellType.FORMULA ){
+	  else if(cell.getCellType()==XSSFCell.CELL_TYPE_NUMERIC || cell.getCellType()==XSSFCell.CELL_TYPE_FORMULA ){
 		  
 		  String cellText  = String.valueOf(cell.getNumericCellValue());
 		  if (HSSFDateUtil.isCellDateFormatted(cell)) {
@@ -176,7 +176,7 @@ public class ExcelReader {
 		  
 		  
 		  return cellText;
-	  }else if(cell.getCellType()==CellType.BLANK)
+	  }else if(cell.getCellType()==XSSFCell.CELL_TYPE_BLANK)
 	      return "";
 	  else 
 		  return String.valueOf(cell.getBooleanCellValue());
@@ -294,7 +294,7 @@ public class ExcelReader {
 	    hlink_style.setFont(hlink_font);
 	    //hlink_style.setWrapText(true);
 
-	    XSSFHyperlink link = createHelper.createHyperlink(HyperlinkType.FILE);
+	    XSSFHyperlink link = createHelper.createHyperlink(index);
 	    link.setAddress(url);
 	    cell.setHyperlink(link);
 	    cell.setCellStyle(hlink_style);
@@ -360,7 +360,7 @@ public class ExcelReader {
 				return false;
 			
 		XSSFCellStyle style = workbook.createCellStyle();
-		style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.GREY_40_PERCENT.getIndex());
+		style.setFillForegroundColor(null);
 		style.setFillPattern(FillPatternType.SOLID_FOREGROUND);
 		
 		sheet=workbook.getSheetAt(index);
@@ -403,7 +403,7 @@ public class ExcelReader {
 		workbook = new XSSFWorkbook(fis);
 		sheet=workbook.getSheet(sheetName);
 		XSSFCellStyle style = workbook.createCellStyle();
-		style.setFillForegroundColor(HSSFColor.HSSFColorPredefined.GREY_40_PERCENT.getIndex());
+		style.setFillForegroundColor(null);
 		//XSSFCreationHelper createHelper = workbook.getCreationHelper();
 		style.setFillPattern(FillPatternType.NO_FILL);
 		
