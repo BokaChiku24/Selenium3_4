@@ -1,2 +1,0 @@
-INFO    2025-06-19 23:25:06,214 [main] org.log4jProperties.TestLogs  - This is the information log
-ERROR   2025-06-19 23:25:06,214 [main] org.log4jProperties.TestLogs  - Here the error logs will be printed
