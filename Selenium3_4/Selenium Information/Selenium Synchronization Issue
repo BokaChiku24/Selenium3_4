@@ -1,0 +1,39 @@
+Selenium Synchronization Issue
+
+1) In Seleneium, while searching an element there are two cases selenium fails to identify the element
+   
+   a) NoSuchElement Exception: If there is any mistake while writing an element or locator not written properly
+   b) Synchronization Issue: If there is little delay to element shows up then it will fails to get/identify the element. 
+                             There is no change in the URL only the section is getting change. 
+                             e.g. When the selenium hits on the next button then it changes the element within the same session. 
+                             
+   c) Handle Synchronization Issue methods: 
+      
+      i) Thread.sleep(Duration.ofSeconds(10));
+                             
+      -> This in not recommended wait.
+                             
+      -> For e.g. If the element loads in 5 seconds then we need to provide Thread.sleep(Duration.ofSeconds(5));
+                             
+      -> If the element loads in 10 seconds then script will fail because we have provided Thread.sleep(Duration.ofSeconds(5));
+                                
+      -> Suppose if we use the Thread.sleep(Duration.ofSeconds(5)); in the 1000 lines of code then 
+         script will get slow also this is not stable script. If the performance of the webElement is increase then the 
+         script will still pause.
+                             
+      ii) Implicitly Wait: driver.manage().implicitlyWait(Duration.ofSeconds(5));
+                              
+      -> Element is presence on the DOM but not visible on the DOM once it start visible on the DOM
+      
+      -> Specifies the amount of time the driver should wait when searching for an element if it is not immediately present.
+      
+      -> When searching for a single element, the driver should poll the page until the element has been found, or 
+         this timeout expires before throwing a NoSuchElementException. When searching for multiple elements, the driver 
+         should poll the page until at least one element has been found or this timeout has expired.
+         
+      -> Increasing the implicit wait timeout should be used judiciously as it will have an adverse effect on test run time, 
+         especially when used with slower location strategies like XPath.
+         
+      -> If the timeout is negative, not null, or greater than 2e16 - 1, an error code with invalid argument will be returned.
+      
+      -> Parameters: duration The duration to wait.
