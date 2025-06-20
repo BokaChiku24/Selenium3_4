@@ -1,0 +1,21 @@
+20/06/2025 00:32:03 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Initialize the ChromeDriver
+20/06/2025 00:32:03 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Initialize the ChromeDriver Successfully
+20/06/2025 00:32:04 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Navigated To: https://www.way2automation.com/
+20/06/2025 00:32:04 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Instance Quit
+20/06/2025 00:36:00 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Initialize the ChromeDriver
+20/06/2025 00:36:01 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Initialize the ChromeDriver Successfully
+20/06/2025 00:36:03 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Navigated To: https://www.way2automation.com/
+20/06/2025 00:36:03 INFO  webDriverBasics.WebDriverbasics - WebDriverManager Instance Quit
+20/06/2025 21:02:51 INFO  handlingElements.ChromeBrowser - WebDriver Initiated!!
+20/06/2025 21:11:14 INFO  handlingElements.ChromeBrowser - WebDriver Initiated!!
+20/06/2025 21:12:38 INFO  handlingElements.ChromeBrowser - WebDriver Initiated!!
+20/06/2025 21:13:23 INFO  handlingElements.ChromeBrowser - WebDriver Initiated!!
+20/06/2025 22:17:54 INFO  handlingElements.TestWebElement - WebDriver Initiated!!
+20/06/2025 22:19:07 INFO  handlingElements.TestWebElement - WebDriver Initiated!!
+20/06/2025 22:19:08 INFO  handlingElements.TestWebElement - EmailID enters: k.chavan24@gmail.com
+20/06/2025 22:20:28 INFO  handlingElements.TestWebElement - WebDriver Initiated!!
+20/06/2025 22:20:30 INFO  handlingElements.TestWebElement - EmailID enters: k.chavan24@gmail.com
+20/06/2025 22:20:30 INFO  handlingElements.TestWebElement - WebDriver Closed!!
+20/06/2025 22:31:51 INFO  maxMin.MaximizeBrowser - WebDriver Initiated!!
+20/06/2025 22:31:53 INFO  maxMin.MaximizeBrowser - EmailID enters: k.chavan24@gmail.com
+20/06/2025 22:31:53 INFO  maxMin.MaximizeBrowser - WebDriver Closed!!

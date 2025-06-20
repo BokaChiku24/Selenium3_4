@@ -5,6 +5,7 @@ import java.lang.reflect.Constructor;
 public class Home {
 	
 	
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		
 		
@@ -13,8 +14,6 @@ public class Home {
 		System.out.println(clazz.getSimpleName());
 		Constructor[] cons = clazz.getDeclaredConstructors();
 		System.out.println(cons.length);
-		
-		
 		for(Constructor con:cons){
 			
 			System.out.println(con.getName());
@@ -40,14 +39,13 @@ public class Home {
 		*/
 		/*
 		 * 
-		 * Test --> Object --> Class object
-		 * method - > get executed - > Method
-		 * constructor - > called --> Constructor
+		 * Test --> Object --> Class Object
+		 * Method - > get executed - > Method
+		 * Constructor - > called --> Constructor
 		 * 
 		 * Log in log files - log4j
 		 * log.debug(doLogin test executed)
 		 * log.debug(doUserReg test executed)
-		 * 
 		 * 
 		 * @BeforeMethod
 		 * public void beforeMethod(Method m){
@@ -56,21 +54,15 @@ public class Home {
 		 * 
 		 * }
 		 * 
-		 * 
 		 * @Test
 		 * doLogin(String username, String password){
 		 * 
 		 * }
 		 * 
-		 * 
 		 * @Test
 		 * doUserReg(){
 		 * 
-		 * 
 		 * }
-		 * 
-		 * 
-		 * 
 		 * 
 		 */
 	

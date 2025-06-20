@@ -1,0 +1,52 @@
+Selenium Elements
+
+1) To interact with any element on the web site first open the dev tools by inspecting that element
+
+2) Element is nothing but DOM component as HTML component and selenium interact with these element
+
+3) HTML of the element e.g. 
+   e.g. 
+   <input type="email" class="whsOnd zHQkBf" jsname="YPqjbf" autocomplete="username webauthn" spellcheck="false" tabindex="0" aria-label="Email or phone" aria-describedby="i8" 
+   name="identifier" value="" aria-disabled="false" autocapitalize="none" id="identifierId" dir="ltr" data-initial-dir="ltr" data-initial-value="" badinput="false">
+   
+4) The above is the element Seleneium is going to interact
+
+5) Here input - HTML Tag
+
+6) Here type, class, jsname, autocomplete, spellcheck - HTMl Attribute
+
+7) Here email, whsOnd zHQkBf, YPqjbf, username webauthn, false - HTML Attribute Values
+
+8) Based on these HTML Tag, Attribute, Values we generate Selenium Locator
+
+9) Selenium Locators are used to identify unique elemnt from the web site
+
+10) --------- Selenium Locators Startegies ----------
+
+   a) id
+   b) name
+   c) xPath
+   d) cssSelector
+   e) tagName
+   f) linkText
+   g) partialLinkText
+   h) className
+   i) Relative Locator: above, below, near, toRightOf, toLeftof
+   
+   Selenium 2.0 support - id, name, xPath, cssSelector
+   
+   Selenium 3.0 support - id, name, xPath, cssSelector, tagName, linkText, partialLinkText, className
+   
+   Selenium 4.0 support - id, name, xPath, cssSelector, tagName, linkText, partialLinkText, className, Relative Locator (above, below, near, toRightOf, toLeftof)
+   
+   Tools helps to identify element - Chropath, SelectorHub, or Inspect - Right Click 'Copy' - Copy xPath, Copy Selector etc..
+   
+11) findElement() - It is going to find first element from the HTML DOM. Selemiun start from left top side of the side from searching element
+
+12) Get first element from the selenium from findElement() method
+    
+    a) driver.findElement(By.id("idName")); 
+    b) findElement() - return WebElement
+    c) findElement() method accept By class as parameter. 
+    d) By class has static methods of the locator e.g. id, name, className, cssSelector etc
+    e) By selecting the locator just pass the string value as parameter to the selected static method

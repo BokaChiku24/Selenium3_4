@@ -13,7 +13,7 @@ public class ReflectionExampleP2 {
 	public void display() {
 
 	}
-
+	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		ReflectionExample obj = new ReflectionExample();
 		Class test = obj.getClass();
@@ -53,7 +53,6 @@ public class ReflectionExampleP2 {
 		 * @Test doLogin(String userName, String password){
 		 * 
 		 * }
-		 * 
 		 * 
 		 * @Test doUserReg(){
 		 * 
