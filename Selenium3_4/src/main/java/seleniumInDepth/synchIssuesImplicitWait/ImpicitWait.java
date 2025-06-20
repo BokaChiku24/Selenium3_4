@@ -25,8 +25,10 @@ public class ImpicitWait {
 		log.info("Entered EmailId is: " + emailID.getAttribute("value"));
 		driver.findElement(By.xpath("//div[@class='O1Slxf']/div[1]/div[@jsname='Njthtb']")).click();
 		log.info("Next button is clicked");
+		driver.findElement(By.xpath("//input[@name='Passwd']")).sendKeys("123123");
 		driver.close();
 		log.info("WebDriver is Closed !!");
+		
 	}
 
 }
