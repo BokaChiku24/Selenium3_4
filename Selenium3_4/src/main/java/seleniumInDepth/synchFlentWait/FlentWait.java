@@ -1,6 +1,8 @@
-package seleniumInDepth.synchExplicitWait;
+package seleniumInDepth.synchFlentWait;
 
 import java.time.Duration;
+import java.util.NoSuchElementException;
+import java.util.function.Function;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -8,12 +10,13 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.testng.Assert;
 
-public class ExplicitWait {
-	
-	public static Logger log = Logger.getLogger(ExplicitWait.class);
+public class FlentWait {
+
+	public static Logger log = Logger.getLogger(FlentWait.class);
 	public static String browser = "Chrome";
 	public static WebDriver driver;
 
@@ -26,7 +29,12 @@ public class ExplicitWait {
 		driver.get("https://www.gmail.com");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+		Wait<WebDriver> wait = new FluentWait<WebDriver>(driver)
+				.withTimeout(Duration.ofSeconds(30))
+				.pollingEvery(Duration.ofSeconds(5))
+				.withMessage("Timeout as the expected condition not met")
+				.ignoring(NoSuchElementException.class);
+		
 		WebElement emailID = driver.findElement(By.id("identifierId"));
 		emailID.sendKeys("k.chavan24@gmail.com");
 		log.info("Entered EmailId is: " + emailID.getAttribute("value"));
@@ -40,5 +48,6 @@ public class ExplicitWait {
 		log.info("WebDriver is Closed !!");
 
 	}
+
 
 }

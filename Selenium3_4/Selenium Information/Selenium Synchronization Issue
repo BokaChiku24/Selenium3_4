@@ -37,3 +37,21 @@ Selenium Synchronization Issue
       -> If the timeout is negative, not null, or greater than 2e16 - 1, an error code with invalid argument will be returned.
       
       -> Parameters: duration The duration to wait.
+      
+      iii) ExplicitWait: WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
+      
+      -> Wait will ignore instances of NotFoundException that are encountered (thrown) by default in the 'until' condition, and immediately propagate all others. 
+         You can add more to the ignore list by calling ignoring(exceptions to add).
+         
+      -> Parameters: driver The WebDriver instance to pass to the expected conditions & timeout The timeout when an expectation is called
+      
+      iv) Fluent Wait: 
+      
+      -> Why fluent wait: If the user uses driver.manage().implicitlyWait(Duration.ofSeconds(20)); then it search for 20 seconds and hits to the DOM 20 seconds until the element is not visible.
+         This put unnecessary stress on the script
+      
+      -> Sometimes element visible on the DOM after couple of seconds or some time. 
+      
+      -> What fluent wait do if the user want to hit on the DOM to look any specific element then hit the DOM only 4-5 times within some specific time frame.
+      
+      -> Throw any particular exception in Fluent wait and Fluent wait it is used to ignore any specific exception
