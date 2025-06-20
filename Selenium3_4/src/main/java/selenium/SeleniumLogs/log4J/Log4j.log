@@ -19,3 +19,10 @@
 20/06/2025 22:31:51 INFO  maxMin.MaximizeBrowser - WebDriver Initiated!!
 20/06/2025 22:31:53 INFO  maxMin.MaximizeBrowser - EmailID enters: k.chavan24@gmail.com
 20/06/2025 22:31:53 INFO  maxMin.MaximizeBrowser - WebDriver Closed!!
+20/06/2025 22:58:08 INFO  synchIssuesImplicitWait.ImpicitWait - WebDriver Started!!
+20/06/2025 22:59:57 INFO  synchIssuesImplicitWait.ImpicitWait - WebDriver Started!!
+20/06/2025 23:00:36 INFO  synchIssuesImplicitWait.ImpicitWait - WebDriver Started!!
+20/06/2025 23:00:53 INFO  synchIssuesImplicitWait.ImpicitWait - WebDriver Started!!
+20/06/2025 23:00:54 INFO  synchIssuesImplicitWait.ImpicitWait - Entered EmailId is: k.chavan24@gmail.com
+20/06/2025 23:00:55 INFO  synchIssuesImplicitWait.ImpicitWait - Next button is clicked
+20/06/2025 23:00:55 INFO  synchIssuesImplicitWait.ImpicitWait - WebDriver is Closed !!
