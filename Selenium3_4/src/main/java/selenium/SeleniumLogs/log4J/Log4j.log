@@ -67,3 +67,38 @@
 21/06/2025 20:09:44 INFO  relativeLocator.RelativeLocatorScreenShot - Screnshoot Cpatured !!
 21/06/2025 20:10:57 INFO  relativeLocator.RelativeLocatorScreenShot - Screnshoot Cpatured !!
 21/06/2025 20:12:04 INFO  relativeLocator.RelativeLocatorScreenShot - Screnshoot Cpatured !!
+21/06/2025 21:21:36 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:22:52 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:24:34 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:30:40 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:32:04 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:32:06 INFO  multipleComplexElements.SelectClassHandlingElements - Country is selected !!
+21/06/2025 21:32:06 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver is closed
+21/06/2025 21:44:08 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:44:09 INFO  multipleComplexElements.SelectClassHandlingElements - Country is selected !!
+21/06/2025 21:44:09 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver is closed
+21/06/2025 21:44:40 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:44:40 INFO  multipleComplexElements.SelectClassHandlingElements - Country is selected !!
+21/06/2025 21:45:00 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:45:01 INFO  multipleComplexElements.SelectClassHandlingElements - Country is selected !!
+21/06/2025 21:45:01 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver is closed
+21/06/2025 21:54:08 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver Started!!
+21/06/2025 21:54:09 INFO  multipleComplexElements.SelectClassHandlingElements - Country is selected !!
+21/06/2025 21:54:09 INFO  multipleComplexElements.SelectClassHandlingElements - WebDriver is closed
+21/06/2025 22:00:05 INFO  multipleComplexElements.SelectClassWrappedDropDownSelectByValue - WebDriver Started!!
+21/06/2025 22:00:06 INFO  multipleComplexElements.SelectClassWrappedDropDownSelectByValue - Country is selected !!
+21/06/2025 22:00:06 INFO  multipleComplexElements.SelectClassWrappedDropDownSelectByValue - WebDriver is closed
+21/06/2025 22:02:58 INFO  multipleComplexElements.SelectClassWrappedDropDownPrintAllValue - WebDriver Started!!
+21/06/2025 22:02:59 INFO  multipleComplexElements.SelectClassWrappedDropDownPrintAllValue - ALl Country is printed !!
+21/06/2025 22:02:59 INFO  multipleComplexElements.SelectClassWrappedDropDownPrintAllValue - WebDriver is closed
+21/06/2025 22:03:37 INFO  multipleComplexElements.SelectClassWrappedDropDownPrintAllValue - WebDriver Started!!
+21/06/2025 22:03:38 INFO  multipleComplexElements.SelectClassWrappedDropDownPrintAllValue - ALl Country is printed !!
+21/06/2025 22:03:38 INFO  multipleComplexElements.SelectClassWrappedDropDownPrintAllValue - WebDriver is closed
+21/06/2025 22:17:32 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Started!!
+21/06/2025 22:17:33 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Closed!!
+21/06/2025 22:22:13 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Started!!
+21/06/2025 22:22:14 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Closed!!
+21/06/2025 22:24:29 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Started!!
+21/06/2025 22:24:31 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Closed!!
+21/06/2025 22:29:44 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClassP2 - WebDriver Started!!
+21/06/2025 22:30:36 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClassP2 - WebDriver Started!!
