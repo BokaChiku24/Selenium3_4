@@ -30,11 +30,12 @@ public class TestRelativeLocators {
 		WebElement rightOf = driver
 				.findElement(RelativeLocator.with(By.tagName("input")).toRightOf(By.xpath("(//fieldset)[9]/label")));
 		rightOf.sendKeys("123213");
-		WebElement leftOf = driver.findElement(RelativeLocator.with(By.xpath("(//fieldset)[8]/label")).toLeftOf(By.xpath("(//fieldset)[8]/input")));
+		WebElement leftOf = driver.findElement(
+				RelativeLocator.with(By.xpath("(//fieldset)[8]/label")).toLeftOf(By.xpath("(//fieldset)[8]/input")));
 		System.out.println(leftOf.getText());
-		//WebElement near = driver
-		//		.findElement(RelativeLocator.with(By.partialLinkText("ENTER TO THE")).near(By.linkText("Signin")));
-		//near.click();
-		// driver.close();
+		WebElement near = driver
+				.findElement(RelativeLocator.with(By.partialLinkText("ENTER TO THE")).near(By.linkText("Signin")));
+		near.click();
+		driver.close();
 	}
 }
