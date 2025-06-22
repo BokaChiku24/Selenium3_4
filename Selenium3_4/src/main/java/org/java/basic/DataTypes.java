@@ -14,7 +14,17 @@ public class DataTypes {
 		String str = "Kunal";
 		boolean flag = true;
 		// Non-Primitive Data Types
-		DataTypes obj;
+		DataTypes obj = null;
+		System.out.println(b);
+		System.out.println(s);
+		System.out.println(i);
+		System.out.println(l);
+		System.out.println(f);
+		System.out.println(d);
+		System.out.println(c);
+		System.out.println(str);
+		System.out.println(flag);
+		System.out.println(obj);
 	}
 
 }

@@ -20,7 +20,7 @@ public class NotePad {
 		bw.newLine();
 		bw.write("This is my second line");
 		bw.flush();
-		
+		bw.close();
 		FileReader fr = new FileReader(f);
 		BufferedReader br = new BufferedReader(fr);
 		//System.out.println(br.readLine());
@@ -29,6 +29,7 @@ public class NotePad {
 		while((value=br.readLine())!=null) {
 			System.out.println(value);
 		}
+		br.close();
 	}
 
 }

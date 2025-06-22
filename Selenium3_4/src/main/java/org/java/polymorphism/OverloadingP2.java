@@ -22,6 +22,7 @@ public class OverloadingP2 {
 
 	// Passing array to the method parameter
 	public void add(int... a) {
+		@SuppressWarnings("unused")
 		int[] array = a;
 	}
 	

@@ -48,6 +48,7 @@ public class String_methods {
 		int total = num1+num2;
 		System.out.println(total);
 		
+		@SuppressWarnings("unused")
 		String final_value = String.valueOf(total);
 		
 		String arr[] = s.split("fox");

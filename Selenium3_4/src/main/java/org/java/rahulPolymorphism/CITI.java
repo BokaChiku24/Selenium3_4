@@ -8,6 +8,7 @@ public class CITI extends RBI {
 		System.out.println(obj.getHomeLoanROI());
 
 		RBI obj2 = new CITI();
+		System.out.println(obj2);
 	}
 
 	public double getHomeLoanROI() {

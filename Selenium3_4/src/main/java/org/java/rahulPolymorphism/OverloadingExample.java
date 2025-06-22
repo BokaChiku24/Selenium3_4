@@ -29,6 +29,7 @@ public class OverloadingExample {
 	
 	public void addition(int... a){
 		
+		@SuppressWarnings("unused")
 		int[] var = a;
 		
 		

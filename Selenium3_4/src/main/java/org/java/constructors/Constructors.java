@@ -21,6 +21,7 @@ public class Constructors {
 
 	public static void main(String[] args) {
 		Constructors obj = new Constructors(); // This line will call the constructor
+		System.out.println(obj);
 	}
 
 }

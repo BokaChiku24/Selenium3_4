@@ -36,7 +36,7 @@ public class HashMapExample {
 		
 		for(String keys : set) {
 			System.out.println("Key is: " + set + " : " + "value is: " + listOfEmails);
-
+			System.out.println(keys);
 		}
 	}
 

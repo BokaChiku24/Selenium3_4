@@ -1,14 +1,13 @@
 package org.java.rahulCollections;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 public class ArrayListExample {
 
 	public static void main(String[] args) {
 
 
-		ArrayList list = new ArrayList();
+		ArrayList<Object> list = new ArrayList<Object>();
 		System.out.println(list);
 		
 		

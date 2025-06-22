@@ -33,6 +33,7 @@ public class ConstructorsOverloading {
 		ConstructorsOverloading obj2 = new ConstructorsOverloading("Kunal",1234567890L);
 		// this.show();Cannot use this in a static context
 		obj.display();
+		obj2.display();
 	}
 
 }

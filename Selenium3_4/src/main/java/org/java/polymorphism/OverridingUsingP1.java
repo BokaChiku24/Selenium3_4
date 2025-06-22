@@ -13,6 +13,7 @@ public class OverridingUsingP1 extends OverridingUsing{
 	}
 	
 	public void initBrowser() {
+		@SuppressWarnings("unused")
 		WebDriver driver = getBrowserinstance(browserName);
 		obj.click();
 		obj.getTitle();

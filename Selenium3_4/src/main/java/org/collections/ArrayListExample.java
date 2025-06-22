@@ -63,7 +63,7 @@ public class ArrayListExample {
 		// int number = list.get(0); // Type mismatch: cannot convert from Object to int
 		Object number = list.get(0);
 		// System.out.println(20+number); // The operator + is undefined for the argument type(s) int, Object
-		
+		System.out.println(number);
 		// Workaround is type casting
 		int number1 = (int)list.get(0);
 		System.out.println(20+number1);

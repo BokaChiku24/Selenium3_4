@@ -22,6 +22,7 @@ public class Child extends Parent{
 	}
 	
 	
+	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
 		
 		Parent c = new Child();
