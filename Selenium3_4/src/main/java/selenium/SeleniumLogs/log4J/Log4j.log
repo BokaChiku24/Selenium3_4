@@ -102,3 +102,16 @@
 21/06/2025 22:24:31 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClass - WebDriver Closed!!
 21/06/2025 22:29:44 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClassP2 - WebDriver Started!!
 21/06/2025 22:30:36 INFO  multipleComplexElements.GetAllOptionsFromDropDownWithoutSelectClassP2 - WebDriver Started!!
+21/06/2025 22:39:52 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 22:41:53 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 22:42:16 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 22:59:50 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:01:10 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:01:41 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:02:28 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:11:13 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:26:33 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:28:40 INFO  getAllLinks.Links - WebDriver Started!!
+21/06/2025 23:51:19 INFO  presenceOfElements.ElementPresent - WebDriver Started!!
+21/06/2025 23:52:25 INFO  presenceOfElements.ElementPresent - WebDriver Started!!
+22/06/2025 00:04:40 INFO  presenceOfElements.ElementPresent - WebDriver Started!!
