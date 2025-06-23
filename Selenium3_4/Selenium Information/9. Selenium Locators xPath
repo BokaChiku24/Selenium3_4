@@ -1,0 +1,95 @@
+Selenium Locators xPath
+
+1) xPath: 
+
+-> To write the xPath, first go to the WebElement. inspect the WebElement and go to the HTML code.
+
+-> Copy the HTML code into the note pad and with the help of the syntax write the xPath
+
+-> In build plug-in for the browser Firefox, Chrome which helps o write xPath - Firebug, Firepath, Chropath, and SelectorHub etc..
+
+-> Note: Till the element is not unique we can not work with that element.
+
+-> Absolute xPath start from single backslash. i.e. /
+
+-> e.g. /html/div/span/div/table
+
+-> xPath start from (Double Backslash) i.e. //
+
+-> xPath syntax: //tagName=[@attribute='value']
+
+-> e.g. //input[@id='identifierId']
+
+-> To verify the xPath is unique or not go to the browser console and type $x("//input[@id='identifierId']")
+
+-> $x("//*") - "Asterisk" means any tag on the HTML DOM
+
+-> //input[@id='identifierId'] - xPath generate by attribute is called as "Relative xPath"
+
+-> Types of xPath: "Relative xPath", "Absolute xPath", and "Partial xPath"
+
+-> Major used xPath - "Relative xPath" and "Partial xPath"
+
+-> xPath concatenation - //input[@id='identifierId' and name='kunal']
+
+-> $x("//input[@id='identifierId'][@class='input'][@type='Submit]") - xPath concatenation
+
+-> xPath indexing -  $x("(//input[@id='identifierId'][@class='input'][@type='Submit])[1]")
+
+
+
+
+
+A) xPath Indexing: xPath return 2 nodes for tagName, and attributes
+
+$x("(//input[@id='identifierId'][@class='input'][@type='Submit])[1]")
+
+
+
+B) xPath value changes dynamically at the end
+
+$x("//input[starts-with(@id,'identifier')]")
+
+
+
+C) xPath both start and end part changes dynamically 
+
+$x("//input[contains(@id,'den')]")
+
+
+
+D) xPath go to the parent of the element
+
+$x("//input[@id='identifierId']/..") OR $x("//input[@id='identifierId']/parent::div")
+
+
+
+E) xPath parent to child
+
+$x("//div[@class='identifierId']/div") - All Child
+
+$x("//div[@class='identifierId']/div[1]") - First Child
+
+
+
+F) xPath preceding sibling
+
+$x("//div[@class='identifierId']/div[3]/preceding-sibling::div") - All Preceding Sibling
+
+$x("//div[@class='identifierId']/div[3]/preceding-sibling::div[1]") - First Preceding Sibling
+
+
+
+G) xPath following sibling
+
+$x("//div[@class='identifierId']/div[3]/div[1]/following-sibling::div")
+
+
+
+H) xPath by using text
+
+$x("//div[contains(text(),'SignIn']") - This is for long or partial text
+
+$x("//div[contains(text()='SignIn']" - This is for the exact text
+
+

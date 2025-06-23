@@ -1,0 +1,33 @@
+SelectorHub Locator
+
+1) It is free plugin for Firefox and Chrome
+
+2) It is designed to handle complex xPath OR CSS
+
+3) SelectorHub provide one feature which will give direct xpath or CSS
+
+   -> Click on the 'Set driver command to append on selector'
+   
+   -> Write the java syntax driver.findElement(By.id("xpathvalue"));
+   
+4) To generate multiple xPath or cssSelector 
+
+   -> Click on the 'Click to generate automation code/multiple xPath'
+   
+   -> Click on the WebElement from the browser 
+   
+   -> SelectorHub generate xPath / cssSelector
+   
+5) Unable to get the xPath then SelectorHub provide one feature
+
+   -> Click on the 'Turn on Debugger'
+   
+   -> Click on the WebElement and it will pause the screen 
+   
+   -> Click on the WebElement and it will print the xPath or cssSelector
+   
+6) More accurate than browser finding element. 
+
+   -> e.g. for //a browser display 221 elements (It consider space or string)
+   
+   -> // a in SelectorHub display 190 elements (It not consider space or string)

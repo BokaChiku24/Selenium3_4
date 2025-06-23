@@ -1,0 +1,94 @@
+Selenium Locators cssSelector
+
+1) CSS is faster than xPath. 
+
+2) On the latest browser there will be no difference between cssSelector and xPath
+
+3) In the CSS we can go the parent to child but we can not go to the child to parent
+
+4) In CSS there is text() function just like xPath
+
+5) CSS Syntax:  tagName=[attribute='value']
+
+6) e.g. input[id='identifierId']
+
+7) To verify the cssSelector is unique or not go to the browser console and type $S("input[id='identifierId']")
+
+8) cssSelector concatenation - input[id='identifierId'][type='email']
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+
+A) cssSelector concatenation
+
+input[id='identifierId'][type='email']
+
+$$("input[id='identifierId'][type='email']")
+
+
+
+B) cssSelector starts-with (^)
+
+$$("input[id^='identifier']")
+
+
+
+C) cssSelector ends-with ($)
+
+$$("input[id$='identifier']")
+
+
+
+D) cssSelector contains (*)
+
+$$("input[id*='identifier']")
+
+
+
+E) cssSelector id (#)
+
+$$("#identifier")
+
+
+
+F) cssSelector class (.)
+
+
+$$(".identifier")
+
+
+
+G) cssSelector tagName 
+
+$$("input")
+
+
+
+H) cssSelector tagName + id
+
+$$("input#identifier")
+
+
+
+I) cssSelector tagName + class
+
+$$("input.identifier")
+
+
+
+J) cssSelector composite class (Remove the space and put .)
+
+$$(".identifier.submit.bjhgkhjg.eraersd")
+
+
+
+K) cssSelector go to the child (>)
+
+$$(".identifier.submit.bjhgkhjg.eraersd > div > div") - All Child
+
+$$(".identifier.submit.bjhgkhjg.eraersd > div > div:first-child") - First Child
+
+$$(".identifier.submit.bjhgkhjg.eraersd > div > div:flast-child") - Last Child
+
+$$(".identifier.submit.bjhgkhjg.eraersd > div > div:nth-child(3)") - Middle Child

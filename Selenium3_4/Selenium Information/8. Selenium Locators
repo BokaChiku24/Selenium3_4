@@ -1,0 +1,25 @@
+Selenium Locators
+
+1) There are total 8 locators in selenium 
+
+2) In selenium 4.0, RelativeLocators introduce.
+
+-----------Selenium Locators ------------------
+   a) id
+   b) name
+   c) xPath
+   d) cssSelector
+   e) tagName
+   f) linkText
+   g) partialLinkText
+   h) className
+   i) Relative Locator: above, below, near, toRightOf, toLeftof
+
+3) id : Id is the always first preference. It is the fastest locator in selenium and mostly unique locator
+
+4) xPath & cssSelector: Very frequently used locators because user can defined unique and handle dynamic locator. 
+                        It is not mandatory all elements will have id, name, className etc.
+                        We need to follow the syntax to use xPath & cssSelector
+                        
+5) Straight forward locator: id, name, tagName, linkText, partialLinkText, className
+
