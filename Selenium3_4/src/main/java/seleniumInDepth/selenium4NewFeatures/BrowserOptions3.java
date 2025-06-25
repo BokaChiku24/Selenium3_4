@@ -1,4 +1,4 @@
-package seleniumInDepth.Selenium4;
+package seleniumInDepth.selenium4NewFeatures;
 
 import java.util.Collections;
 import java.util.HashMap;

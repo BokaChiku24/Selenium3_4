@@ -1,4 +1,4 @@
-package seleniumInDepth.Selenium4;
+package seleniumInDepth.selenium4NewFeatures;
 
 import java.io.IOException;
 import java.nio.file.Files;

@@ -1,4 +1,4 @@
-package seleniumInDepth.Selenium4;
+package seleniumInDepth.selenium4NewFeatures;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
