@@ -32,6 +32,6 @@ public class TestBrowserOptions {
 		driver.get("https://selenium.dev/");
 
 		System.out.println(driver.getTitle());
-
+		driver.close();
 	}
 }
