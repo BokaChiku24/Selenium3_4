@@ -55,7 +55,6 @@ public class TestCheckboxes {
 		 * 
 		 * driver.findElement(By.xpath("//div[4]/input["+i+"]")).click();
 		 * 
-		 * 
 		 * }
 		 */
 

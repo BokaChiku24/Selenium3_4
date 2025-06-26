@@ -16,7 +16,6 @@ public class TestAlert {
 
 	public static void main(String[] args) {
 
-
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
@@ -35,10 +34,6 @@ public class TestAlert {
 		
 		System.out.println(alert.getText());
 		alert.accept();
-		
-		
-		
-		
 		
 	}
 
