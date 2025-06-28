@@ -1,25 +1,713 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="32" passed="25" failed="6" skipped="1">
   <reporter-output>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+    </line>
+    <line>
+      <![CDATA[<br>]]>
+    </line>
+    <line>
+      <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+    </line>
   </reporter-output>
-  <suite started-at="2025-06-28T16:18:53 IST" name="Default suite" finished-at="2025-06-28T16:18:53 IST" duration-ms="17">
+  <suite started-at="2025-06-28T17:55:41 IST" name="Suite" finished-at="2025-06-28T17:55:43 IST" duration-ms="2343">
     <groups>
+      <group name="Functional">
+        <method signature="TestNGValidations.validateTitle()[pri:0, instance:testng.testNGListeners.TestNGValidations@175b9425]" name="validateTitle" class="testng.testNGListeners.TestNGValidations"/>
+        <method signature="Groups.doLogin()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" name="doLogin" class="testng.testNGGroups.Groups"/>
+        <method signature="Groups.doUserRegister()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" name="doUserRegister" class="testng.testNGGroups.Groups"/>
+        <method signature="Groups.doUserRegisterOTP()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" name="doUserRegisterOTP" class="testng.testNGGroups.Groups"/>
+        <method signature="TestNGValidations.validateTitle()[pri:0, instance:testng.testNGReport.TestNGValidations@313b2ea6]" name="validateTitle" class="testng.testNGReport.TestNGValidations"/>
+      </group> <!-- Functional -->
+      <group name="Regression">
+        <method signature="Groups.launchBrowser()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" name="launchBrowser" class="testng.testNGGroups.Groups"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="Groups.doLogin()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" name="doLogin" class="testng.testNGGroups.Groups"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test started-at="2025-06-28T16:18:53 IST" name="Default test" finished-at="2025-06-28T16:18:53 IST" duration-ms="17">
-      <class name="testng.testngAnnotation.TestCase">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testngAnnotation.TestCase@49e53c76]" started-at="2025-06-28T16:18:53 IST" name="setup" finished-at="2025-06-28T16:18:53 IST" duration-ms="5" status="PASS">
+    <test started-at="2025-06-28T17:55:41 IST" name="Test" finished-at="2025-06-28T17:55:43 IST" duration-ms="2343">
+      <class name="testng.testNGDependsOnMethod.DependsOnMethod">
+        <test-method signature="launchBrowser()[pri:0, instance:testng.testNGDependsOnMethod.DependsOnMethod@a1cdc6d]" started-at="2025-06-28T17:55:43 IST" name="launchBrowser" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGDependsOnMethod.DependsOnMethod@a1cdc6d]" started-at="2025-06-28T17:55:43 IST" name="doUserRegister" finished-at="2025-06-28T17:55:43 IST" depends-on-methods="testng.testNGDependsOnMethod.DependsOnMethod.launchBrowser" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGDependsOnMethod.DependsOnMethod@a1cdc6d]" started-at="2025-06-28T17:55:43 IST" name="doLogin" finished-at="2025-06-28T17:55:43 IST" depends-on-methods="testng.testNGDependsOnMethod.DependsOnMethod.doUserRegisterOTP, testng.testNGDependsOnMethod.DependsOnMethod.doUserRegister" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doUserRegisterOTP()[pri:0, instance:testng.testNGDependsOnMethod.DependsOnMethod@a1cdc6d]" started-at="2025-06-28T17:55:43 IST" name="doUserRegisterOTP" finished-at="2025-06-28T17:55:43 IST" depends-on-methods="testng.testNGDependsOnMethod.DependsOnMethod.launchBrowser" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegisterOTP -->
+      </class> <!-- testng.testNGDependsOnMethod.DependsOnMethod -->
+      <class name="testng.testNGAnnotation.TestNGAfterMethod">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGAfterMethod@6a2b953e]" started-at="2025-06-28T17:55:42 IST" name="setup" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="userRegistration()[pri:0, instance:testng.testngAnnotation.TestCase@49e53c76]" started-at="2025-06-28T16:18:53 IST" name="userRegistration" finished-at="2025-06-28T16:18:53 IST" duration-ms="3" status="PASS">
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGAnnotation.TestNGAfterMethod@6a2b953e]" started-at="2025-06-28T17:55:42 IST" name="doLogin" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- userRegistration -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.testngAnnotation.TestCase@49e53c76]" started-at="2025-06-28T16:18:53 IST" name="tearDown" finished-at="2025-06-28T16:18:53 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- doLogin -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGAnnotation.TestNGAfterMethod@6a2b953e]" started-at="2025-06-28T17:55:42 IST" name="doUserRegister" finished-at="2025-06-28T17:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGAfterMethod@6a2b953e]" started-at="2025-06-28T17:55:42 IST" name="setup" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.testNGAnnotation.TestNGAfterMethod@6a2b953e]" started-at="2025-06-28T17:55:42 IST" name="tearDown" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testng.testngAnnotation.TestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.testNGAnnotation.TestNGAfterMethod@6a2b953e]" started-at="2025-06-28T17:55:42 IST" name="tearDown" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.testNGAnnotation.TestNGAfterMethod -->
+      <class name="testng.testNGAnnotation.TestAfterSuite">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestAfterSuite@6e509ffa]" started-at="2025-06-28T17:55:41 IST" name="setup" finished-at="2025-06-28T17:55:41 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testng.testNGAnnotation.TestAfterSuite@6e509ffa]" started-at="2025-06-28T17:55:43 IST" name="tearDown" finished-at="2025-06-28T17:55:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testng.testNGAnnotation.TestAfterSuite -->
+      <class name="testng.testNGAnnotation.TestNGBeforeMethod">
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeMethod@610f7aa]" started-at="2025-06-28T17:55:43 IST" name="doLogin" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeMethod@610f7aa]" started-at="2025-06-28T17:55:43 IST" name="setup" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeMethod@610f7aa]" started-at="2025-06-28T17:55:43 IST" name="doUserRegister" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeMethod@610f7aa]" started-at="2025-06-28T17:55:43 IST" name="setup" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testng.testNGAnnotation.TestNGBeforeMethod -->
+      <class name="testng.testNGReport.TestNGValidations">
+        <test-method signature="validateTitle()[pri:0, instance:testng.testNGReport.TestNGValidations@313b2ea6]" started-at="2025-06-28T17:55:42 IST" name="validateTitle" finished-at="2025-06-28T17:55:43 IST" duration-ms="664" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifier']"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76aacf5a58fc0d83cee81b1b07af90dc, findElement {value=//input[@id='identifier'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/03/hcnh39r5371...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51177/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76aacf5a58fc0d83cee81b1b07af90dc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifier']"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [76aacf5a58fc0d83cee81b1b07af90dc, findElement {value=//input[@id='identifier'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/03/hcnh39r5371...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51177/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 76aacf5a58fc0d83cee81b1b07af90dc
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at testng.testNGReport.TestNGValidations.isElementIsPresent(TestNGValidations.java:31)
+at testng.testNGReport.TestNGValidations.validateTitle(TestNGValidations.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testng.testNGReport.TestNGValidations -->
+      <class name="testng.testNGAnnotation.TestAnnotation">
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGAnnotation.TestAnnotation@3098cf3b]" started-at="2025-06-28T17:55:43 IST" name="doLogin" finished-at="2025-06-28T17:55:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGAnnotation.TestAnnotation@3098cf3b]" started-at="2025-06-28T17:55:43 IST" name="doUserRegister" finished-at="2025-06-28T17:55:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+      </class> <!-- testng.testNGAnnotation.TestAnnotation -->
+      <class name="testng.testNGAnnotation.TestNGBeforeTest">
+        <test-method is-config="true" signature="setupDBConnection()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeTest@117e949d]" started-at="2025-06-28T17:55:41 IST" name="setupDBConnection" finished-at="2025-06-28T17:55:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDBConnection -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeTest@117e949d]" started-at="2025-06-28T17:55:41 IST" name="setup" finished-at="2025-06-28T17:55:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeTest@117e949d]" started-at="2025-06-28T17:55:41 IST" name="doLogin" finished-at="2025-06-28T17:55:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeTest@117e949d]" started-at="2025-06-28T17:55:41 IST" name="doUserRegister" finished-at="2025-06-28T17:55:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGBeforeTest@117e949d]" started-at="2025-06-28T17:55:41 IST" name="setup" finished-at="2025-06-28T17:55:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+      </class> <!-- testng.testNGAnnotation.TestNGBeforeTest -->
+      <class name="testng.testNGListeners.TestNGValidations">
+        <test-method signature="validateTitle()[pri:0, instance:testng.testNGListeners.TestNGValidations@175b9425]" started-at="2025-06-28T17:55:43 IST" name="validateTitle" finished-at="2025-06-28T17:55:43 IST" duration-ms="671" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifier']"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [710395f119f1eaa22aa398846106fa56, findElement {value=//input[@id='identifier'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/03/hcnh39r5371...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51188/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 710395f119f1eaa22aa398846106fa56]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifier']"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [710395f119f1eaa22aa398846106fa56, findElement {value=//input[@id='identifier'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/03/hcnh39r5371...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51188/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 710395f119f1eaa22aa398846106fa56
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at testng.testNGListeners.TestNGValidations.isElementIsPresent(TestNGValidations.java:31)
+at testng.testNGListeners.TestNGValidations.validateTitle(TestNGValidations.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testng.testNGListeners.TestNGValidations -->
+      <class name="testng.testNGSoftAssertion.SoftAssertion">
+        <test-method signature="validateTitle()[pri:0, instance:testng.testNGSoftAssertion.SoftAssertion@7b02881e]" started-at="2025-06-28T17:55:42 IST" name="validateTitle" finished-at="2025-06-28T17:55:42 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Actual message: Gmail is not equals to the expected: Google]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Actual message: Gmail is not equals to the expected: Google
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testng.testNGSoftAssertion.SoftAssertion.validateTitle(SoftAssertion.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testng.testNGSoftAssertion.SoftAssertion -->
+      <class name="testng.testNGAssertions.TestNGValidations">
+        <test-method signature="validateTitle()[pri:0, instance:testng.testNGAssertions.TestNGValidations@6db9f5a4]" started-at="2025-06-28T17:55:41 IST" name="validateTitle" finished-at="2025-06-28T17:55:42 IST" duration-ms="945" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifier']"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb2e6ca9ccf4b871b3fffc27fdc53e7, findElement {value=//input[@id='identifier'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/03/hcnh39r5371...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51166/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cb2e6ca9ccf4b871b3fffc27fdc53e7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='identifier']"}
+  (Session info: chrome=138.0.7204.50)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.5', java.version: '24.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb2e6ca9ccf4b871b3fffc27fdc53e7, findElement {value=//input[@id='identifier'], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 138.0.7204.50, chrome: {chromedriverVersion: 138.0.7204.49 (d2b48fd5f781..., userDataDir: /var/folders/03/hcnh39r5371...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51166}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:51166/devtoo..., se:cdpVersion: 138.0.7204.50, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7cb2e6ca9ccf4b871b3fffc27fdc53e7
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361)
+at testng.testNGAssertions.TestNGValidations.isElementIsPresent(TestNGValidations.java:31)
+at testng.testNGAssertions.TestNGValidations.validateTitle(TestNGValidations.java:26)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testng.testNGAssertions.TestNGValidations -->
+      <class name="testng.testNGTestSkip.TestSkip">
+        <test-method signature="isTestSkip()[pri:0, instance:testng.testNGTestSkip.TestSkip@5f8edcc5]" started-at="2025-06-28T17:55:42 IST" name="isTestSkip" finished-at="2025-06-28T17:55:42 IST" duration-ms="1" status="SKIP">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping the test on purpose]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping the test on purpose
+at testng.testNGTestSkip.TestSkip.isTestSkip(TestSkip.java:10)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isTestSkip -->
+      </class> <!-- testng.testNGTestSkip.TestSkip -->
+      <class name="testng.testNGAssertions.TestNGForceValidations">
+        <test-method signature="validateTitle()[pri:0, instance:testng.testNGAssertions.TestNGForceValidations@4e50c791]" started-at="2025-06-28T17:55:41 IST" name="validateTitle" finished-at="2025-06-28T17:55:41 IST" duration-ms="4" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Actual message: Gmail is not equals to the expected: Google]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Actual message: Gmail is not equals to the expected: Google
+at org.testng.Assert.fail(Assert.java:99)
+at testng.testNGAssertions.TestNGForceValidations.validateTitle(TestNGForceValidations.java:12)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: java.lang.Throwable
+at testng.testNGAssertions.TestNGForceValidations.validateTitle(TestNGForceValidations.java:11)
+... 26 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testng.testNGAssertions.TestNGForceValidations -->
+      <class name="testng.testNGListeners.SoftAssertion">
+        <test-method signature="validateTitle()[pri:0, instance:testng.testNGListeners.SoftAssertion@2898ac89]" started-at="2025-06-28T17:55:42 IST" name="validateTitle" finished-at="2025-06-28T17:55:42 IST" duration-ms="1" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+Actual message: Gmail is not equals to the expected: Google]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+Actual message: Gmail is not equals to the expected: Google
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:30)
+at testng.testNGListeners.SoftAssertion.validateTitle(SoftAssertion.java:15)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank">Screenshot link</a>]]>
+            </line>
+            <line>
+              <![CDATA[<br>]]>
+            </line>
+            <line>
+              <![CDATA[<a href="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg" target="_blank"><img height=200 width=200 src="/Users/kunalchavan/git/Selenium3_4/Selenium3_4/Selenium WebElement ScreenShots/full page screenshot.jpg"></a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testng.testNGListeners.SoftAssertion -->
+      <class name="testng.testNGGroups.Groups">
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" started-at="2025-06-28T17:55:42 IST" name="doLogin" finished-at="2025-06-28T17:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" started-at="2025-06-28T17:55:42 IST" name="doUserRegister" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method signature="doUserRegisterOTP()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" started-at="2025-06-28T17:55:42 IST" name="doUserRegisterOTP" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegisterOTP -->
+        <test-method signature="launchBrowser()[pri:0, instance:testng.testNGGroups.Groups@683dbc2c]" started-at="2025-06-28T17:55:42 IST" name="launchBrowser" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- testng.testNGGroups.Groups -->
+      <class name="testng.testNGAnnotation.TestNGAeforeTest">
+        <test-method is-config="true" signature="setupDBConnection()[pri:0, instance:testng.testNGAnnotation.TestNGAeforeTest@2f465398]" started-at="2025-06-28T17:55:41 IST" name="setupDBConnection" finished-at="2025-06-28T17:55:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDBConnection -->
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGAnnotation.TestNGAeforeTest@2f465398]" started-at="2025-06-28T17:55:43 IST" name="doLogin" finished-at="2025-06-28T17:55:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGAeforeTest@2f465398]" started-at="2025-06-28T17:55:43 IST" name="setup" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGAnnotation.TestNGAeforeTest@2f465398]" started-at="2025-06-28T17:55:43 IST" name="doUserRegister" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testng.testNGAnnotation.TestNGAeforeTest@2f465398]" started-at="2025-06-28T17:55:43 IST" name="setup" finished-at="2025-06-28T17:55:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="closeDBConnection()[pri:0, instance:testng.testNGAnnotation.TestNGAeforeTest@2f465398]" started-at="2025-06-28T17:55:43 IST" name="closeDBConnection" finished-at="2025-06-28T17:55:43 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDBConnection -->
+      </class> <!-- testng.testNGAnnotation.TestNGAeforeTest -->
+      <class name="testng.testNGTestSuite.TestSuite">
+        <test-method signature="doLogin()[pri:0, instance:testng.testNGTestSuite.TestSuite@68267da0]" started-at="2025-06-28T17:55:42 IST" name="doLogin" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method signature="doUserRegister()[pri:0, instance:testng.testNGTestSuite.TestSuite@68267da0]" started-at="2025-06-28T17:55:42 IST" name="doUserRegister" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method signature="doUserRegisterOTP()[pri:0, instance:testng.testNGTestSuite.TestSuite@68267da0]" started-at="2025-06-28T17:55:42 IST" name="doUserRegisterOTP" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegisterOTP -->
+        <test-method signature="launchBrowser()[pri:0, instance:testng.testNGTestSuite.TestSuite@68267da0]" started-at="2025-06-28T17:55:42 IST" name="launchBrowser" finished-at="2025-06-28T17:55:42 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- testng.testNGTestSuite.TestSuite -->
+      <class name="testng.testNGAnnotation.TestCase">
+        <test-method signature="userRegistration()[pri:0, instance:testng.testNGAnnotation.TestCase@6ff29830]" started-at="2025-06-28T17:55:42 IST" name="userRegistration" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistration -->
+      </class> <!-- testng.testNGAnnotation.TestCase -->
+      <class name="testng.testNGPriority.TestNGPriority">
+        <test-method signature="doUserRegister()[pri:1, instance:testng.testNGPriority.TestNGPriority@2638011]" started-at="2025-06-28T17:55:42 IST" name="doUserRegister" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doUserRegister -->
+        <test-method signature="doLogin()[pri:2, instance:testng.testNGPriority.TestNGPriority@2638011]" started-at="2025-06-28T17:55:42 IST" name="doLogin" finished-at="2025-06-28T17:55:42 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- testng.testNGPriority.TestNGPriority -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
