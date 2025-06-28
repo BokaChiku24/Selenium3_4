@@ -3,13 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngFrameworkAdvance.handleRetryFailTestCase.TestCases">
+      <class name="extentReports.testCase.TestCase1">
         <methods>
-          <include name="setup"/>
-          <include name="verifyForgotPasswordPage"/>
-          <include name="verifyLoginPageText"/>
+          <include name="doUserReg"/>
+          <include name="setReport"/>
+          <include name="endReport"/>
+          <include name="isSkip"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testngFrameworkAdvance.handleRetryFailTestCase.TestCases -->
+      </class> <!-- extentReports.testCase.TestCase1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
