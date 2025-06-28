@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngFrameworkAdvance.handleTestFailScreenshot.TestCase">
+      <class name="testngFrameworkAdvance.handleRetryFailTestCase.TestCases">
         <methods>
-          <include name="doLogin"/>
-          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="verifyForgotPasswordPage"/>
+          <include name="verifyLoginPageText"/>
         </methods>
-      </class> <!-- testngFrameworkAdvance.handleTestFailScreenshot.TestCase -->
+      </class> <!-- testngFrameworkAdvance.handleRetryFailTestCase.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
