@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testngFrameworkAdvance.handleParallelExecution.ParallelExecution">
+      <class name="testngFrameworkAdvance.handleThreadPoolSize.InvocationCount">
         <methods>
-          <include name="doLogin"/>
+          <include name="executeTest"/>
         </methods>
-      </class> <!-- testngFrameworkAdvance.handleParallelExecution.ParallelExecution -->
+      </class> <!-- testngFrameworkAdvance.handleThreadPoolSize.InvocationCount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

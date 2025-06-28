@@ -5,43 +5,24 @@
     <listener class-name="testng.testNGReport.Listeners"/>
     <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name="Parameter Test(failed)">
+    <parameter name="Browser Name" value="Firefox"/>
     <classes>
-      <class name="testng.testNGReport.TestNGValidations">
+      <class name="testngFrameworkAdvance.handleThreadPoolSize.ThreadPoolSize">
         <methods>
-          <include name="validateTitle"/>
+          <include name="executeTest"/>
         </methods>
-      </class> <!-- testng.testNGReport.TestNGValidations -->
-      <class name="testng.testNGAssertions.TestNGValidations">
-        <methods>
-          <include name="validateTitle"/>
-        </methods>
-      </class> <!-- testng.testNGAssertions.TestNGValidations -->
-      <class name="testng.testNGSoftAssertion.SoftAssertion">
-        <methods>
-          <include name="validateTitle"/>
-        </methods>
-      </class> <!-- testng.testNGSoftAssertion.SoftAssertion -->
-      <class name="testng.testNGAssertions.TestNGForceValidations">
-        <methods>
-          <include name="validateTitle"/>
-        </methods>
-      </class> <!-- testng.testNGAssertions.TestNGForceValidations -->
-      <class name="testng.testNGListeners.TestNGValidations">
-        <methods>
-          <include name="validateTitle"/>
-        </methods>
-      </class> <!-- testng.testNGListeners.TestNGValidations -->
-      <class name="testng.testNGTestSkip.TestSkip">
-        <methods>
-          <include name="isTestSkip"/>
-        </methods>
-      </class> <!-- testng.testNGTestSkip.TestSkip -->
-      <class name="testng.testNGListeners.SoftAssertion">
-        <methods>
-          <include name="validateTitle"/>
-        </methods>
-      </class> <!-- testng.testNGListeners.SoftAssertion -->
+      </class> <!-- testngFrameworkAdvance.handleThreadPoolSize.ThreadPoolSize -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Parameter Test(failed) -->
+  <test thread-count="5" name="Chrome Test(failed)">
+    <parameter name="Browser Name" value="Chrome"/>
+    <classes>
+      <class name="testngFrameworkAdvance.handleThreadPoolSize.ThreadPoolSize">
+        <methods>
+          <include name="executeTest"/>
+        </methods>
+      </class> <!-- testngFrameworkAdvance.handleThreadPoolSize.ThreadPoolSize -->
+    </classes>
+  </test> <!-- Chrome Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
