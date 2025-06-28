@@ -1,4 +1,4 @@
-package testng.testngSoftAssertion;
+package testng.testNGSoftAssertion;
 
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;

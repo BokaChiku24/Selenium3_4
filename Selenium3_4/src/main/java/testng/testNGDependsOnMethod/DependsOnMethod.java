@@ -1,4 +1,4 @@
-package testng.testngDependsOnMethod;
+package testng.testNGDependsOnMethod;
 
 import org.testng.annotations.Test;
 
