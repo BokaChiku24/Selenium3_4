@@ -2,20 +2,46 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="testng.testNGListeners.Listeners"/>
+    <listener class-name="testng.testNGReport.Listeners"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
   </listeners>
-  <test thread-count="5" name="Listener Testing(failed)">
-    <groups>
-      <run>
-        <include name="Functional"/>
-      </run>
-    </groups>
+  <test thread-count="5" name="Test(failed)">
     <classes>
+      <class name="testng.testNGReport.TestNGValidations">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- testng.testNGReport.TestNGValidations -->
+      <class name="testng.testNGAssertions.TestNGValidations">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- testng.testNGAssertions.TestNGValidations -->
+      <class name="testng.testNGSoftAssertion.SoftAssertion">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- testng.testNGSoftAssertion.SoftAssertion -->
+      <class name="testng.testNGAssertions.TestNGForceValidations">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- testng.testNGAssertions.TestNGForceValidations -->
       <class name="testng.testNGListeners.TestNGValidations">
         <methods>
           <include name="validateTitle"/>
         </methods>
       </class> <!-- testng.testNGListeners.TestNGValidations -->
+      <class name="testng.testNGTestSkip.TestSkip">
+        <methods>
+          <include name="isTestSkip"/>
+        </methods>
+      </class> <!-- testng.testNGTestSkip.TestSkip -->
+      <class name="testng.testNGListeners.SoftAssertion">
+        <methods>
+          <include name="validateTitle"/>
+        </methods>
+      </class> <!-- testng.testNGListeners.SoftAssertion -->
     </classes>
-  </test> <!-- Listener Testing(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
