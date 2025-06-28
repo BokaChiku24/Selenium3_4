@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+<run>
+<include name="Functional"></include>
+</run>
+</groups>
+<listeners>
+<listener class-name="testng.testNGListeners.Listeners"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testng.testngAssertions.TestNGValidations"/>
+      <class name="testng.testngAnnotation.TestNGAeforeTest"/>
+      <class name="testng.testngAnnotation.TestNGAfterMethod"/>
+      <class name="testng.testngAnnotation.TestNGBeforeTest"/>
+      <class name="testng.testNGGroups.Groups"/>
+      <class name="testng.testngDependsOnMethod.DependsOnMethod"/>
+      <class name="testng.testngAssertions.TestNGForceValidations"/>
+      <class name="testng.testngSoftAssertion.SoftAssertion"/>
+      <class name="testng.testNGTestSuite.TestSuite"/>
+      <class name="testng.testngAnnotation.TestNGBeforeMethod"/>
+      <class name="testng.testngAnnotation.TestAnnotation"/>
+      <class name="testng.testngPriority.TestNGPriority"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Listener Testing">
+    <classes>
+     <class name="testng.testNGListeners.SoftAssertion"/>
+     <class name="testng.testNGListeners.TestNGValidations"/>
+    </classes>
+    </test>
+</suite> <!-- Suite -->
