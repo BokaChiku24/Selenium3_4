@@ -166,3 +166,12 @@
 23/06/2025 01:46:55 INFO  handleCheckbox.Checkbox - Navigated to the URl => https://money.rediff.com/gainers
 23/06/2025 01:47:30 INFO  handleCheckbox.Checkbox - WebDriver Started!!
 23/06/2025 01:47:36 INFO  handleCheckbox.Checkbox - Navigated to the URl => https://money.rediff.com/gainers
+28/06/2025 11:07:35 INFO  webdriverListeners.WebDriverListeners - Navigated To...https://www.gmail.com
+28/06/2025 11:07:35 INFO  webdriverListeners.WebDriverListeners - Typing To Element...[[ChromeDriver: chrome on mac (d693760509ce48349fb97d2c099c9289)] -> id: identifierId] Enetered Keys: [Ljava.lang.CharSequence;@349d0836
+28/06/2025 11:15:29 INFO  webdriverListeners.Listeners - Navigated To...https://www.gmail.com
+28/06/2025 11:15:30 INFO  webdriverListeners.Listeners - Typing To Element...[[ChromeDriver: chrome on mac (b90d7732aded92687b98b24f4483ac53)] -> id: identifierId] Enetered Keys: 
+28/06/2025 11:16:05 INFO  webdriverListeners.Listeners - Navigated To...https://www.gmail.com
+28/06/2025 11:16:06 INFO  webdriverListeners.Listeners - Typing To Element...[[ChromeDriver: chrome on mac (fc0c188961b0aabb584888b81d1f059e)] -> id: identifierId] Enetered Keys: 
+28/06/2025 11:16:06 INFO  webdriverListeners.Listeners - Clicking on an element ...[[ChromeDriver: chrome on mac (fc0c188961b0aabb584888b81d1f059e)] -> xpath: //*[@id="identifierNext"]/div/button/span]
+28/06/2025 11:16:08 INFO  webdriverListeners.Listeners - Typing To Element...[[ChromeDriver: chrome on mac (fc0c188961b0aabb584888b81d1f059e)] -> xpath: //*[@id="password"]/div[1]/div/div[1]/input] Enetered Keys: 
+28/06/2025 11:16:08 INFO  webdriverListeners.Listeners - Test execution completed...
