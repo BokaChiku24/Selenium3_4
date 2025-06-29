@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>extentreport.xml</span>
+                    <span>allurereport.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods, 2 failed,  2 skipped,  2 passed</span>
+                    <span class="method-stats">3 methods, 1 failed,  1 skipped,  1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,12 +103,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="extentReports.testCase.TestCase1" class="method navigator-link" hash-for-method="doUserReg">doUserReg</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="extentReports.testCase.TestCase2" class="method navigator-link" hash-for-method="doUserReg">doUserReg</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="allureReporting.testcases.TestCases" class="method navigator-link" hash-for-method="doUserReg">doUserReg</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,12 +117,7 @@
                     <div class="method-list-content skipped suite-Suite">
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="extentReports.testCase.TestCase1" class="method navigator-link" hash-for-method="isSkip">isSkip</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="extentReports.testCase.TestCase2" class="method navigator-link" hash-for-method="isSkip">isSkip</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="allureReporting.testcases.TestCases" class="method navigator-link" hash-for-method="isSkip">isSkip</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite -->
@@ -141,12 +131,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="extentReports.testCase.TestCase1" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="extentReports.testCase.TestCase2" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="allureReporting.testcases.TestCases" class="method navigator-link" hash-for-method="doLogin">doLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -164,7 +149,7 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">extentReports.testCase.TestCase2</span>
+              <span class="class-name">allureReporting.testcases.TestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -172,28 +157,8 @@
                   <a name="doUserReg">
                   </a> <!-- doUserReg -->
                   <span class="method-name">doUserReg</span>
-                  <div class="stack-trace">java.lang.AssertionError: User Reg Test Failed
-	at extentReports.testCase.TestCase2.doUserReg(TestCase2.java:18)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 26 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-failed -->
-          <div class="suite-Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">extentReports.testCase.TestCase1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="doUserReg">
-                  </a> <!-- doUserReg -->
-                  <span class="method-name">doUserReg</span>
-                  <div class="stack-trace">java.lang.AssertionError: User Reg Test Failed
-	at extentReports.testCase.TestCase1.doUserReg(TestCase1.java:72)
+                  <div class="stack-trace">java.lang.AssertionError: Failing test case
+	at allureReporting.testcases.TestCases.doUserReg(TestCases.java:38)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ... Removed 26 stack frames
 </div> <!-- stack-trace -->
@@ -204,7 +169,7 @@
           <div class="suite-Suite-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
-              <span class="class-name">extentReports.testCase.TestCase2</span>
+              <span class="class-name">allureReporting.testcases.TestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -212,28 +177,8 @@
                   <a name="isSkip">
                   </a> <!-- isSkip -->
                   <span class="method-name">isSkip</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test case
-	at extentReports.testCase.TestCase2.isSkip(TestCase2.java:24)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-... Removed 25 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-skipped -->
-          <div class="suite-Suite-class-skipped">
-            <div class="main-panel-header rounded-window-top">
-              <img src="skipped.png"/>
-              <span class="class-name">extentReports.testCase.TestCase1</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="isSkip">
-                  </a> <!-- isSkip -->
-                  <span class="method-name">isSkip</span>
-                  <div class="stack-trace">org.testng.SkipException: Skipping the test case
-	at extentReports.testCase.TestCase1.isSkip(TestCase1.java:79)
+                  <div class="stack-trace">org.testng.SkipException: Skipping test case
+	at allureReporting.testcases.TestCases.isSkip(TestCases.java:46)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -244,22 +189,7 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">extentReports.testCase.TestCase2</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="doLogin">
-                  </a> <!-- doLogin -->
-                  <span class="method-name">doLogin</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">extentReports.testCase.TestCase1</span>
+              <span class="class-name">allureReporting.testcases.TestCases</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -274,7 +204,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/Users/kunalchavan/git/Selenium3_4/Selenium3_4/extentreport.xml</span>
+            <span class="header-content">/Users/kunalchavan/git/Selenium3_4/Selenium3_4/allurereport.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -282,12 +212,11 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;extentReports.extentlisteners.ExtentListeners&quot;/&gt;
+    &lt;listener class-name=&quot;allureReporting.CustomListeners&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;extentReports.testCase.TestCase1&quot;/&gt;
-      &lt;class name=&quot;extentReports.testCase.TestCase2&quot;/&gt;
+      &lt;class name=&quot;allureReporting.testcases.TestCases&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -301,7 +230,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (2 classes)</span>
+                <span class="test-name">Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -327,36 +256,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'doLogin')
-data.setCell(0, 2, 'extentReports.testCase.TestCase1')
-data.setCell(0, 3, 4);
+data.setCell(0, 2, 'allureReporting.testcases.TestCases')
+data.setCell(0, 3, 28);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'doUserReg')
-data.setCell(1, 2, 'extentReports.testCase.TestCase1')
-data.setCell(1, 3, 2);
+data.setCell(1, 2, 'allureReporting.testcases.TestCases')
+data.setCell(1, 3, 3);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'doLogin')
-data.setCell(2, 2, 'extentReports.testCase.TestCase2')
-data.setCell(2, 3, 1);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'isSkip')
-data.setCell(3, 2, 'extentReports.testCase.TestCase1')
-data.setCell(3, 3, 1);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'doUserReg')
-data.setCell(4, 2, 'extentReports.testCase.TestCase2')
-data.setCell(4, 3, 0);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'isSkip')
-data.setCell(5, 2, 'extentReports.testCase.TestCase2')
-data.setCell(5, 3, 0);
+data.setCell(2, 1, 'isSkip')
+data.setCell(2, 2, 'allureReporting.testcases.TestCases')
+data.setCell(2, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 33 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -382,61 +299,21 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">extentReports.testCase.TestCase1</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setReport</span>
+              <div class="chronological-class-name">allureReporting.testcases.TestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">doLogin</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">doLogin</span>
-                <span class="method-start">14 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=doLogin status=SUCCESS method=TestCase1.doLogin()[pri:0, instance:extentReports.tes...)</span>
-                <span class="method-start">22 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">doUserReg</span>
-                <span class="method-start">23 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=doUserReg status=FAILURE method=TestCase1.doUserReg()[pri:0, instance:extentReports...)</span>
-                <span class="method-start">1081 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">isSkip</span>
-                <span class="method-start">1734 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown([TestResult name=isSkip status=SKIP method=TestCase1.isSkip()[pri:0, instance:extentReports.testCase...)</span>
-                <span class="method-start">1736 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">extentReports.testCase.TestCase2</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">doLogin</span>
-                <span class="method-start">1737 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">doUserReg</span>
-                <span class="method-start">1739 ms</span>
+                <span class="method-start">54 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">isSkip</span>
-                <span class="method-start">2511 ms</span>
+                <span class="method-start">61 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">extentReports.testCase.TestCase1</div> <!-- chronological-class-name -->
-              <div class="configuration-test after">
-                <span class="method-name">endReport</span>
-                <span class="method-start">2512 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

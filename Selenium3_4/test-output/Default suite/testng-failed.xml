@@ -3,15 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extentReports.testCase.TestCase1">
+      <class name="allureReporting.testcases.TestCases">
         <methods>
-          <include name="doUserReg"/>
-          <include name="setReport"/>
-          <include name="endReport"/>
           <include name="isSkip"/>
-          <include name="tearDown"/>
+          <include name="doUserReg"/>
         </methods>
-      </class> <!-- extentReports.testCase.TestCase1 -->
+      </class> <!-- allureReporting.testcases.TestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
