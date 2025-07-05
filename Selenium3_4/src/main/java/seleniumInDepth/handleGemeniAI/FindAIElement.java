@@ -104,7 +104,7 @@ public class FindAIElement {
 			try {
 				// Wait a bit to ensure the page is loaded and element is present
 				// In a real scenario, use WebDriverWait for explicit waits.
-				Thread.sleep(Duration.ofSeconds(10));
+				Thread.sleep(10000);
 
 				WebElement element = driver.findElement(By.xpath(aiGeneratedXPath));
 				System.out.println("Found element using AI-generated XPath: " + element.getText());
@@ -112,7 +112,7 @@ public class FindAIElement {
 				System.out.println("Clicked the element: " + elementDescription);
 
 				// Wait to observe the result of the click
-				Thread.sleep(Duration.ofSeconds(10));
+				Thread.sleep(10000);
 
 			} catch (NoSuchElementException e) {
 				System.err.println("Error: Element with AI-generated XPath '" + aiGeneratedXPath + "' not found.");
