@@ -26,7 +26,7 @@ public class ThreadSleepExample {
 		log.info("Entered EmailId is: " + emailID.getAttribute("value"));
 		driver.findElement(By.xpath("//div[@class='O1Slxf']/div[1]/div[@jsname='Njthtb']")).click();
 		log.info("Next button is clicked");
-		Thread.sleep(Duration.ofSeconds(5)); // Not Recommended This Way
+		Thread.sleep(5000); // Not Recommended This Way
 		driver.findElement(By.xpath("//input[@name='Passwd']")).sendKeys("123123");
 		driver.close();
 		log.info("WebDriver is Closed !!");
