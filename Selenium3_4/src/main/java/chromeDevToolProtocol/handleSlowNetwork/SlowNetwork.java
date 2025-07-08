@@ -21,7 +21,7 @@ public class SlowNetwork {
 
 		devTools.send(Network.enable(Optional.empty(), Optional.empty(), Optional.empty()));
 		devTools.send(Network.emulateNetworkConditions(false, 20000, 20000, 50, Optional.of(ConnectionType.CELLULAR3G),
-				java.util.Optional.empty(), java.util.Optional.empty(), java.util.Optional.empty()));
+				Optional.empty(), Optional.empty(), Optional.empty()));
 		driver.get("https://www.way2automation.com");
 		driver.close();
 
