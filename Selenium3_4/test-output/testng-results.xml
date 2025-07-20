@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="1" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-29T10:26:26 IST" name="Suite" finished-at="2025-06-29T10:26:26 IST" duration-ms="81">
+  <suite started-at="2025-07-20T13:59:30 IST" name="Default suite" finished-at="2025-07-20T13:59:31 IST" duration-ms="102">
     <groups>
     </groups>
-    <test started-at="2025-06-29T10:26:26 IST" name="Test" finished-at="2025-06-29T10:26:26 IST" duration-ms="81">
+    <test started-at="2025-07-20T13:59:30 IST" name="Default test" finished-at="2025-07-20T13:59:31 IST" duration-ms="102">
       <class name="allureReporting.testcases.TestCases">
-        <test-method signature="doLogin()[pri:0, instance:allureReporting.testcases.TestCases@338fc1d8]" started-at="2025-06-29T10:26:26 IST" name="doLogin" finished-at="2025-06-29T10:26:26 IST" duration-ms="28" status="PASS">
+        <test-method signature="doLogin()[pri:0, instance:allureReporting.testcases.TestCases@31dadd46]" started-at="2025-07-20T13:59:30 IST" name="doLogin" finished-at="2025-07-20T13:59:31 IST" duration-ms="38" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doLogin -->
-        <test-method signature="doUserReg()[pri:0, instance:allureReporting.testcases.TestCases@338fc1d8]" started-at="2025-06-29T10:26:26 IST" name="doUserReg" finished-at="2025-06-29T10:26:26 IST" duration-ms="3" status="FAIL">
+        <test-method signature="doUserReg()[pri:0, instance:allureReporting.testcases.TestCases@31dadd46]" started-at="2025-07-20T13:59:31 IST" name="doUserReg" finished-at="2025-07-20T13:59:31 IST" duration-ms="3" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[Failing test case]]>
@@ -20,8 +20,10 @@
               <![CDATA[java.lang.AssertionError: Failing test case
 at org.testng.Assert.fail(Assert.java:111)
 at allureReporting.testcases.TestCases.doUserReg(TestCases.java:38)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -30,7 +32,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -52,7 +54,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doUserReg -->
-        <test-method signature="isSkip()[pri:0, instance:allureReporting.testcases.TestCases@338fc1d8]" started-at="2025-06-29T10:26:26 IST" name="isSkip" finished-at="2025-06-29T10:26:26 IST" duration-ms="2" status="SKIP">
+        <test-method signature="isSkip()[pri:0, instance:allureReporting.testcases.TestCases@31dadd46]" started-at="2025-07-20T13:59:31 IST" name="isSkip" finished-at="2025-07-20T13:59:31 IST" duration-ms="3" status="SKIP">
           <exception class="org.testng.SkipException">
             <message>
               <![CDATA[Skipping test case]]>
@@ -60,8 +62,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             <full-stacktrace>
               <![CDATA[org.testng.SkipException: Skipping test case
 at allureReporting.testcases.TestCases.isSkip(TestCases.java:46)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
 at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
 at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
@@ -70,7 +74,7 @@ at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInv
 at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
 at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
 at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
 at org.testng.TestRunner.privateRun(TestRunner.java:739)
 at org.testng.TestRunner.run(TestRunner.java:614)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
@@ -93,6 +97,6 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           </reporter-output>
         </test-method> <!-- isSkip -->
       </class> <!-- allureReporting.testcases.TestCases -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
